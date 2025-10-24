@@ -1,0 +1,202 @@
+[
+  {
+    "page_number": 1,
+    "page_name": "page1",
+    "question": "questions.pet_type",
+    "buttons": [
+      {
+        "text": "buttons.cat",
+        "target_page": 50
+      },
+      {
+        "text": "buttons.dog",
+        "target_page": 2
+      }
+    ],
+    "_comment": "PLACEHOLDER - This is a template structure for Brit Care. To be filled with actual product flow later."
+  },
+  {
+    "page_number": 2,
+    "page_name": "page2",
+    "question": "questions.dog_age",
+    "buttons": [
+      {
+        "text": "buttons.puppy",
+        "target_page": 10
+      },
+      {
+        "text": "buttons.adult",
+        "target_page": 20
+      },
+      {
+        "text": "buttons.senior",
+        "target_page": 30
+      }
+    ],
+    "_comment": "Dog age selection - adjust target pages based on actual Brit Care product line"
+  },
+  {
+    "page_number": 10,
+    "page_name": "puppySize",
+    "question": "questions.dog_weight",
+    "buttons": [
+      {
+        "text": "buttons.small_toy",
+        "target_page": 100
+      },
+      {
+        "text": "buttons.medium",
+        "target_page": 100
+      },
+      {
+        "text": "buttons.large",
+        "target_page": 100
+      }
+    ],
+    "_comment": "Puppy size selection"
+  },
+  {
+    "page_number": 20,
+    "page_name": "adultSize",
+    "question": "questions.dog_weight",
+    "buttons": [
+      {
+        "text": "buttons.small_toy",
+        "target_page": 200
+      },
+      {
+        "text": "buttons.medium",
+        "target_page": 200
+      },
+      {
+        "text": "buttons.large",
+        "target_page": 200
+      }
+    ],
+    "_comment": "Adult size selection"
+  },
+  {
+    "page_number": 30,
+    "page_name": "seniorSize",
+    "question": "questions.dog_weight",
+    "buttons": [
+      {
+        "text": "buttons.small_toy",
+        "target_page": 300
+      },
+      {
+        "text": "buttons.medium",
+        "target_page": 300
+      },
+      {
+        "text": "buttons.large",
+        "target_page": 300
+      }
+    ],
+    "_comment": "Senior size selection"
+  },
+  {
+    "page_number": 50,
+    "page_name": "catAge",
+    "question": "questions.cat_age",
+    "buttons": [
+      {
+        "text": "buttons.kitten",
+        "target_page": 400
+      },
+      {
+        "text": "buttons.adult_cat",
+        "target_page": 500
+      },
+      {
+        "text": "buttons.senior_cat",
+        "target_page": 600
+      }
+    ],
+    "_comment": "Cat age selection"
+  },
+  {
+    "page_number": 100,
+    "page_name": "puppyResult",
+    "question": "questions.result",
+    "buttons": [
+      {
+        "text": "BRITCARE_PUPPY_01",
+        "target_page": 100
+      },
+      {
+        "text": "BRITCARE_PUPPY_02",
+        "target_page": 100
+      }
+    ],
+    "_comment": "PLACEHOLDER - Replace with actual Brit Care puppy product codes"
+  },
+  {
+    "page_number": 200,
+    "page_name": "adultResult",
+    "question": "questions.result",
+    "buttons": [
+      {
+        "text": "BRITCARE_ADULT_01",
+        "target_page": 200
+      },
+      {
+        "text": "BRITCARE_ADULT_02",
+        "target_page": 200
+      }
+    ],
+    "_comment": "PLACEHOLDER - Replace with actual Brit Care adult product codes"
+  },
+  {
+    "page_number": 300,
+    "page_name": "seniorResult",
+    "question": "questions.result",
+    "buttons": [
+      {
+        "text": "BRITCARE_SENIOR_01",
+        "target_page": 300
+      }
+    ],
+    "_comment": "PLACEHOLDER - Replace with actual Brit Care senior product codes"
+  },
+  {
+    "page_number": 400,
+    "page_name": "kittenResult",
+    "question": "questions.result",
+    "buttons": [
+      {
+        "text": "BRITCARE_KITTEN_01",
+        "target_page": 400
+      }
+    ],
+    "_comment": "PLACEHOLDER - Replace with actual Brit Care kitten product codes"
+  },
+  {
+    "page_number": 500,
+    "page_name": "adultCatResult",
+    "question": "questions.result",
+    "buttons": [
+      {
+        "text": "BRITCARE_ADULTCAT_01",
+        "target_page": 500
+      },
+      {
+        "text": "BRITCARE_ADULTCAT_02",
+        "target_page": 500
+      }
+    ],
+    "_comment": "PLACEHOLDER - Replace with actual Brit Care adult cat product codes"
+  },
+  {
+    "page_number": 600,
+    "page_name": "seniorCatResult",
+    "question": "questions.result",
+    "buttons": [
+      {
+        "text": "BRITCARE_SENIORCAT_01",
+        "target_page": 600
+      }
+    ],
+    "_comment": "PLACEHOLDER - Replace with actual Brit Care senior cat product codes"
+  }
+]

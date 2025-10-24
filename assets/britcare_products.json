@@ -1,0 +1,178 @@
+{
+  "products": {
+    "BRITCARE_PUPPY_01": {
+      "code": "BRITCARE_PUPPY_01",
+      "series": "Puppy",
+      "name": "Brit Care Puppy Placeholder Product",
+      "nameKey": "products.britcare.PUPPY_01.name",
+      "descriptionKey": "products.britcare.PUPPY_01.description",
+      "category": "dog",
+      "ageGroup": "puppy",
+      "sizeGroup": "all",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.PUPPY_01.benefit1",
+        "products.britcare.PUPPY_01.benefit2",
+        "products.britcare.PUPPY_01.benefit3"
+      ],
+      "forWhomKey": "products.britcare.PUPPY_01.forWhom",
+      "tags": ["puppy", "placeholder"],
+      "_status": "PLACEHOLDER - To be replaced with actual Brit Care products"
+    },
+    "BRITCARE_PUPPY_02": {
+      "code": "BRITCARE_PUPPY_02",
+      "series": "Puppy",
+      "name": "Brit Care Puppy Placeholder Product 2",
+      "nameKey": "products.britcare.PUPPY_02.name",
+      "descriptionKey": "products.britcare.PUPPY_02.description",
+      "category": "dog",
+      "ageGroup": "puppy",
+      "sizeGroup": "all",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.PUPPY_02.benefit1",
+        "products.britcare.PUPPY_02.benefit2",
+        "products.britcare.PUPPY_02.benefit3"
+      ],
+      "forWhomKey": "products.britcare.PUPPY_02.forWhom",
+      "tags": ["puppy", "placeholder"],
+      "_status": "PLACEHOLDER"
+    },
+    "BRITCARE_ADULT_01": {
+      "code": "BRITCARE_ADULT_01",
+      "series": "Adult",
+      "name": "Brit Care Adult Placeholder Product",
+      "nameKey": "products.britcare.ADULT_01.name",
+      "descriptionKey": "products.britcare.ADULT_01.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "all",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.ADULT_01.benefit1",
+        "products.britcare.ADULT_01.benefit2",
+        "products.britcare.ADULT_01.benefit3"
+      ],
+      "forWhomKey": "products.britcare.ADULT_01.forWhom",
+      "tags": ["adult", "placeholder"],
+      "_status": "PLACEHOLDER"
+    },
+    "BRITCARE_ADULT_02": {
+      "code": "BRITCARE_ADULT_02",
+      "series": "Adult",
+      "name": "Brit Care Adult Placeholder Product 2",
+      "nameKey": "products.britcare.ADULT_02.name",
+      "descriptionKey": "products.britcare.ADULT_02.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "all",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.ADULT_02.benefit1",
+        "products.britcare.ADULT_02.benefit2",
+        "products.britcare.ADULT_02.benefit3"
+      ],
+      "forWhomKey": "products.britcare.ADULT_02.forWhom",
+      "tags": ["adult", "placeholder"],
+      "_status": "PLACEHOLDER"
+    },
+    "BRITCARE_SENIOR_01": {
+      "code": "BRITCARE_SENIOR_01",
+      "series": "Senior",
+      "name": "Brit Care Senior Placeholder Product",
+      "nameKey": "products.britcare.SENIOR_01.name",
+      "descriptionKey": "products.britcare.SENIOR_01.description",
+      "category": "dog",
+      "ageGroup": "senior",
+      "sizeGroup": "all",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.SENIOR_01.benefit1",
+        "products.britcare.SENIOR_01.benefit2",
+        "products.britcare.SENIOR_01.benefit3"
+      ],
+      "forWhomKey": "products.britcare.SENIOR_01.forWhom",
+      "tags": ["senior", "placeholder"],
+      "_status": "PLACEHOLDER"
+    },
+    "BRITCARE_KITTEN_01": {
+      "code": "BRITCARE_KITTEN_01",
+      "series": "Kitten",
+      "name": "Brit Care Kitten Placeholder Product",
+      "nameKey": "products.britcare.KITTEN_01.name",
+      "descriptionKey": "products.britcare.KITTEN_01.description",
+      "category": "cat",
+      "ageGroup": "kitten",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.KITTEN_01.benefit1",
+        "products.britcare.KITTEN_01.benefit2",
+        "products.britcare.KITTEN_01.benefit3"
+      ],
+      "forWhomKey": "products.britcare.KITTEN_01.forWhom",
+      "tags": ["kitten", "placeholder"],
+      "_status": "PLACEHOLDER"
+    },
+    "BRITCARE_ADULTCAT_01": {
+      "code": "BRITCARE_ADULTCAT_01",
+      "series": "Adult Cat",
+      "name": "Brit Care Adult Cat Placeholder Product",
+      "nameKey": "products.britcare.ADULTCAT_01.name",
+      "descriptionKey": "products.britcare.ADULTCAT_01.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.ADULTCAT_01.benefit1",
+        "products.britcare.ADULTCAT_01.benefit2",
+        "products.britcare.ADULTCAT_01.benefit3"
+      ],
+      "forWhomKey": "products.britcare.ADULTCAT_01.forWhom",
+      "tags": ["adult-cat", "placeholder"],
+      "_status": "PLACEHOLDER"
+    },
+    "BRITCARE_ADULTCAT_02": {
+      "code": "BRITCARE_ADULTCAT_02",
+      "series": "Adult Cat",
+      "name": "Brit Care Adult Cat Placeholder Product 2",
+      "nameKey": "products.britcare.ADULTCAT_02.name",
+      "descriptionKey": "products.britcare.ADULTCAT_02.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.ADULTCAT_02.benefit1",
+        "products.britcare.ADULTCAT_02.benefit2",
+        "products.britcare.ADULTCAT_02.benefit3"
+      ],
+      "forWhomKey": "products.britcare.ADULTCAT_02.forWhom",
+      "tags": ["adult-cat", "placeholder"],
+      "_status": "PLACEHOLDER"
+    },
+    "BRITCARE_SENIORCAT_01": {
+      "code": "BRITCARE_SENIORCAT_01",
+      "series": "Senior Cat",
+      "name": "Brit Care Senior Cat Placeholder Product",
+      "nameKey": "products.britcare.SENIORCAT_01.name",
+      "descriptionKey": "products.britcare.SENIORCAT_01.description",
+      "category": "cat",
+      "ageGroup": "senior",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.SENIORCAT_01.benefit1",
+        "products.britcare.SENIORCAT_01.benefit2",
+        "products.britcare.SENIORCAT_01.benefit3"
+      ],
+      "forWhomKey": "products.britcare.SENIORCAT_01.forWhom",
+      "tags": ["senior-cat", "placeholder"],
+      "_status": "PLACEHOLDER"
+    }
+  },
+  "metadata": {
+    "brand": "Brit Care",
+    "status": "PLACEHOLDER - To be filled with actual product data",
+    "lastUpdated": "2025-10-23",
+    "totalProducts": 9,
+    "notes": "This is a template structure. Research actual Brit Care product line and update with real products."
+  }
+}

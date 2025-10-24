@@ -1,0 +1,165 @@
+/**
+ * LanguageSelector Styles
+ *
+ * Floating language selector in top-right corner
+ * Dropdown menu with smooth animations
+ */
+
+/* Main container */
+.languageSelector {
+  position: fixed;
+  top: var(--spacing-lg);
+  right: var(--spacing-lg);
+  z-index: var(--z-fixed);
+}
+
+/* RTL support - move to left side */
+[dir="rtl"] .languageSelector {
+  right: auto;
+  left: var(--spacing-lg);
+}
+
+/* Language button */
+.languageButton {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--color-card);
+  color: var(--color-text-primary);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  min-height: 44px;
+  box-shadow: var(--shadow-md);
+}
+
+.languageButton:hover {
+  background-color: var(--color-card-hover);
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-lg);
+}
+
+.languageButton:active {
+  transform: scale(0.98);
+}
+
+/* Globe icon */
+.icon {
+  width: 20px;
+  height: 20px;
+  color: var(--color-primary);
+}
+
+/* Language name */
+.languageName {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  white-space: nowrap;
+}
+
+/* Dropdown arrow */
+.arrow {
+  width: 16px;
+  height: 16px;
+  transition: transform var(--transition-fast);
+}
+
+.arrowOpen {
+  transform: rotate(180deg);
+}
+
+/* Dropdown menu */
+.dropdown {
+  position: absolute;
+  top: calc(100% + var(--spacing-sm));
+  right: 0;
+  min-width: 150px;
+  background-color: var(--color-card);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  overflow: hidden;
+  animation: slideDown var(--transition-fast);
+}
+
+/* RTL support for dropdown */
+[dir="rtl"] .dropdown {
+  right: auto;
+  left: 0;
+}
+
+/* Dropdown item */
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: var(--spacing-md) var(--spacing-lg);
+  background-color: transparent;
+  color: var(--color-text-primary);
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+  text-align: inherit;
+}
+
+.dropdownItem:hover {
+  background-color: var(--color-card-hover);
+}
+
+.dropdownItem:active {
+  background-color: var(--color-card-active);
+}
+
+/* Active (selected) language */
+.dropdownItemActive {
+  background-color: rgba(139, 92, 246, 0.1);
+  color: var(--color-primary);
+}
+
+.dropdownItemActive:hover {
+  background-color: rgba(139, 92, 246, 0.2);
+}
+
+/* Language name in dropdown */
+.dropdownLanguageName {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+}
+
+/* Checkmark icon */
+.checkmark {
+  width: 16px;
+  height: 16px;
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+/* Mobile responsive */
+@media (max-width: 767px) {
+  .languageSelector {
+    top: var(--spacing-md);
+    right: var(--spacing-md);
+  }
+
+  [dir="rtl"] .languageSelector {
+    right: auto;
+    left: var(--spacing-md);
+  }
+
+  .languageButton {
+    padding: var(--spacing-sm);
+    min-width: 44px;
+  }
+
+  /* Hide language name on mobile, show only icon */
+  .languageName {
+    display: none;
+  }
+
+  .dropdown {
+    min-width: 140px;
+  }
+}

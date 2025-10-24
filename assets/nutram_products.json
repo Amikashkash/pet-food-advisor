@@ -1,0 +1,493 @@
+{
+  "products": {
+    "T22": {
+      "code": "T22",
+      "series": "Total",
+      "name": "Nutram Total Grain-Free Trout & Salmon Meal Recipe",
+      "nameKey": "products.nutram.T22.name",
+      "descriptionKey": "products.nutram.T22.description",
+      "category": "cat",
+      "ageGroup": "kitten",
+      "image": "/assets/pic/T22.png",
+      "benefits": [
+        "products.nutram.T22.benefit1",
+        "products.nutram.T22.benefit2",
+        "products.nutram.T22.benefit3"
+      ],
+      "forWhomKey": "products.nutram.T22.forWhom",
+      "tags": ["grain-free", "kitten", "salmon", "trout"]
+    },
+    "T23": {
+      "code": "T23",
+      "series": "Total",
+      "name": "Nutram Total Grain-Free Chicken & Turkey Recipe",
+      "nameKey": "products.nutram.T23.name",
+      "descriptionKey": "products.nutram.T23.description",
+      "category": "dog",
+      "ageGroup": "all",
+      "sizeGroup": "small-medium",
+      "image": "/assets/pic/T23.png",
+      "benefits": [
+        "products.nutram.T23.benefit1",
+        "products.nutram.T23.benefit2",
+        "products.nutram.T23.benefit3"
+      ],
+      "forWhomKey": "products.nutram.T23.forWhom",
+      "tags": ["grain-free", "chicken", "turkey", "small-medium-breed"]
+    },
+    "T24": {
+      "code": "T24",
+      "series": "Total",
+      "name": "Nutram Total Grain-Free Salmon & Trout Recipe Cat",
+      "nameKey": "products.nutram.T24.name",
+      "descriptionKey": "products.nutram.T24.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "image": "/assets/pic/T24.png",
+      "benefits": [
+        "products.nutram.T24.benefit1",
+        "products.nutram.T24.benefit2",
+        "products.nutram.T24.benefit3"
+      ],
+      "forWhomKey": "products.nutram.T24.forWhom",
+      "tags": ["grain-free", "adult-cat", "salmon", "trout", "sensitive-skin"]
+    },
+    "T25": {
+      "code": "T25",
+      "series": "Total",
+      "name": "Nutram Total Grain-Free Lamb & Lentils Recipe",
+      "nameKey": "products.nutram.T25.name",
+      "descriptionKey": "products.nutram.T25.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "small-medium",
+      "image": "/assets/pic/T25.png",
+      "benefits": [
+        "products.nutram.T25.benefit1",
+        "products.nutram.T25.benefit2",
+        "products.nutram.T25.benefit3"
+      ],
+      "forWhomKey": "products.nutram.T25.forWhom",
+      "tags": ["grain-free", "lamb", "sensitive-skin", "small-medium-breed"]
+    },
+    "T26": {
+      "code": "T26",
+      "series": "Total",
+      "name": "Nutram Total Grain-Free Lamb, Legumes & Turkey Recipe",
+      "nameKey": "products.nutram.T26.name",
+      "descriptionKey": "products.nutram.T26.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "all",
+      "image": "/assets/pic/T26.png",
+      "benefits": [
+        "products.nutram.T26.benefit1",
+        "products.nutram.T26.benefit2",
+        "products.nutram.T26.benefit3"
+      ],
+      "forWhomKey": "products.nutram.T26.forWhom",
+      "tags": ["grain-free", "lamb", "turkey", "mobility", "all-breeds"]
+    },
+    "T27": {
+      "code": "T27",
+      "series": "Total",
+      "name": "Nutram Total Grain-Free Turkey, Chicken & Duck Recipe",
+      "nameKey": "products.nutram.T27.name",
+      "descriptionKey": "products.nutram.T27.description",
+      "category": "dog",
+      "ageGroup": "all",
+      "sizeGroup": "small-toy",
+      "image": "/assets/pic/T27.png",
+      "benefits": [
+        "products.nutram.T27.benefit1",
+        "products.nutram.T27.benefit2",
+        "products.nutram.T27.benefit3"
+      ],
+      "forWhomKey": "products.nutram.T27.forWhom",
+      "tags": ["grain-free", "turkey", "chicken", "duck", "small-toy-breed"]
+    },
+    "T28": {
+      "code": "T28",
+      "series": "Total",
+      "name": "Nutram Total Grain-Free Salmon, Trout & Herring Recipe",
+      "nameKey": "products.nutram.T28.name",
+      "descriptionKey": "products.nutram.T28.description",
+      "category": "dog",
+      "ageGroup": "puppy",
+      "sizeGroup": "small-toy",
+      "image": "/assets/pic/T28.png",
+      "benefits": [
+        "products.nutram.T28.benefit1",
+        "products.nutram.T28.benefit2",
+        "products.nutram.T28.benefit3"
+      ],
+      "forWhomKey": "products.nutram.T28.forWhom",
+      "tags": ["grain-free", "puppy", "salmon", "trout", "sensitive-skin", "small-toy-breed"]
+    },
+    "T29": {
+      "code": "T29",
+      "series": "Total",
+      "name": "Nutram Total Grain-Free Salmon, Trout, Herring Recipe",
+      "nameKey": "products.nutram.T29.name",
+      "descriptionKey": "products.nutram.T29.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "small-toy",
+      "image": "/assets/pic/T29.png",
+      "benefits": [
+        "products.nutram.T29.benefit1",
+        "products.nutram.T29.benefit2",
+        "products.nutram.T29.benefit3"
+      ],
+      "forWhomKey": "products.nutram.T29.forWhom",
+      "tags": ["grain-free", "adult", "salmon", "sensitive-skin", "mobility", "small-toy-breed"]
+    },
+    "S1": {
+      "code": "S1",
+      "series": "Sound",
+      "name": "Nutram Sound Balanced Wellness Natural Kitten Food",
+      "nameKey": "products.nutram.S1.name",
+      "descriptionKey": "products.nutram.S1.description",
+      "category": "cat",
+      "ageGroup": "kitten",
+      "image": "/assets/pic/S1.png",
+      "benefits": [
+        "products.nutram.S1.benefit1",
+        "products.nutram.S1.benefit2",
+        "products.nutram.S1.benefit3"
+      ],
+      "forWhomKey": "products.nutram.S1.forWhom",
+      "tags": ["with-grains", "kitten", "balanced", "natural"]
+    },
+    "S2": {
+      "code": "S2",
+      "series": "Sound",
+      "name": "Nutram Sound Balanced Wellness Natural Puppy Food",
+      "nameKey": "products.nutram.S2.name",
+      "descriptionKey": "products.nutram.S2.description",
+      "category": "dog",
+      "ageGroup": "puppy",
+      "sizeGroup": "small-medium",
+      "image": "/assets/pic/S2.png",
+      "benefits": [
+        "products.nutram.S2.benefit1",
+        "products.nutram.S2.benefit2",
+        "products.nutram.S2.benefit3"
+      ],
+      "forWhomKey": "products.nutram.S2.forWhom",
+      "tags": ["with-grains", "puppy", "balanced", "natural", "small-medium-breed"]
+    },
+    "S3": {
+      "code": "S3",
+      "series": "Sound",
+      "name": "Nutram Sound Balanced Wellness Natural Large Breed Puppy",
+      "nameKey": "products.nutram.S3.name",
+      "descriptionKey": "products.nutram.S3.description",
+      "category": "dog",
+      "ageGroup": "puppy",
+      "sizeGroup": "large",
+      "image": "/assets/pic/S3.png",
+      "benefits": [
+        "products.nutram.S3.benefit1",
+        "products.nutram.S3.benefit2",
+        "products.nutram.S3.benefit3"
+      ],
+      "forWhomKey": "products.nutram.S3.forWhom",
+      "tags": ["with-grains", "puppy", "large-breed", "joint-support"]
+    },
+    "S5": {
+      "code": "S5",
+      "series": "Sound",
+      "name": "Nutram Sound Balanced Wellness Natural Adult Cat Food",
+      "nameKey": "products.nutram.S5.name",
+      "descriptionKey": "products.nutram.S5.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "image": "/assets/pic/S5.png",
+      "benefits": [
+        "products.nutram.S5.benefit1",
+        "products.nutram.S5.benefit2",
+        "products.nutram.S5.benefit3"
+      ],
+      "forWhomKey": "products.nutram.S5.forWhom",
+      "tags": ["with-grains", "adult-cat", "balanced", "urinary-health"]
+    },
+    "S6": {
+      "code": "S6",
+      "series": "Sound",
+      "name": "Nutram Sound Balanced Wellness Natural Adult Dog Food",
+      "nameKey": "products.nutram.S6.name",
+      "descriptionKey": "products.nutram.S6.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "medium",
+      "image": "/assets/pic/S6.png",
+      "benefits": [
+        "products.nutram.S6.benefit1",
+        "products.nutram.S6.benefit2",
+        "products.nutram.S6.benefit3"
+      ],
+      "forWhomKey": "products.nutram.S6.forWhom",
+      "tags": ["with-grains", "adult", "medium-breed", "balanced"]
+    },
+    "S7": {
+      "code": "S7",
+      "series": "Sound",
+      "name": "Nutram Sound Balanced Wellness Natural Adult Small Breed",
+      "nameKey": "products.nutram.S7.name",
+      "descriptionKey": "products.nutram.S7.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "small-toy",
+      "image": "/assets/pic/S7.png",
+      "benefits": [
+        "products.nutram.S7.benefit1",
+        "products.nutram.S7.benefit2",
+        "products.nutram.S7.benefit3"
+      ],
+      "forWhomKey": "products.nutram.S7.forWhom",
+      "tags": ["with-grains", "adult", "small-toy-breed", "balanced"]
+    },
+    "S8": {
+      "code": "S8",
+      "series": "Sound",
+      "name": "Nutram Sound Balanced Wellness Natural Large Breed Adult",
+      "nameKey": "products.nutram.S8.name",
+      "descriptionKey": "products.nutram.S8.description",
+      "category": "dog",
+      "ageGroup": "adult-senior",
+      "sizeGroup": "large",
+      "image": "/assets/pic/S8.png",
+      "benefits": [
+        "products.nutram.S8.benefit1",
+        "products.nutram.S8.benefit2",
+        "products.nutram.S8.benefit3"
+      ],
+      "forWhomKey": "products.nutram.S8.forWhom",
+      "tags": ["with-grains", "adult-senior", "large-breed", "joint-support"]
+    },
+    "S9": {
+      "code": "S9",
+      "series": "Sound",
+      "name": "Nutram Sound Balanced Wellness Natural Lamb Recipe Adult",
+      "nameKey": "products.nutram.S9.name",
+      "descriptionKey": "products.nutram.S9.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "medium",
+      "image": "/assets/pic/S9.png",
+      "benefits": [
+        "products.nutram.S9.benefit1",
+        "products.nutram.S9.benefit2",
+        "products.nutram.S9.benefit3"
+      ],
+      "forWhomKey": "products.nutram.S9.forWhom",
+      "tags": ["with-grains", "adult", "lamb", "medium-breed"]
+    },
+    "S10": {
+      "code": "S10",
+      "series": "Sound",
+      "name": "Nutram Sound Balanced Wellness Natural Senior Dog Food",
+      "nameKey": "products.nutram.S10.name",
+      "descriptionKey": "products.nutram.S10.description",
+      "category": "dog",
+      "ageGroup": "senior",
+      "sizeGroup": "medium-large",
+      "image": "/assets/pic/S10.png",
+      "benefits": [
+        "products.nutram.S10.benefit1",
+        "products.nutram.S10.benefit2",
+        "products.nutram.S10.benefit3"
+      ],
+      "forWhomKey": "products.nutram.S10.forWhom",
+      "tags": ["with-grains", "senior", "joint-support", "weight-management"]
+    },
+    "S11": {
+      "code": "S11",
+      "series": "Sound",
+      "name": "Nutram Sound Balanced Wellness Natural Puppy Small Breed",
+      "nameKey": "products.nutram.S11.name",
+      "descriptionKey": "products.nutram.S11.description",
+      "category": "dog",
+      "ageGroup": "puppy",
+      "sizeGroup": "small-toy",
+      "image": "/assets/pic/S11.png",
+      "benefits": [
+        "products.nutram.S11.benefit1",
+        "products.nutram.S11.benefit2",
+        "products.nutram.S11.benefit3"
+      ],
+      "forWhomKey": "products.nutram.S11.forWhom",
+      "tags": ["with-grains", "puppy", "small-toy-breed", "balanced"]
+    },
+    "S46": {
+      "code": "S46",
+      "series": "Sound",
+      "name": "Nutram Sound Balanced Wellness Sensitive Skin, Coat & Stomach",
+      "nameKey": "products.nutram.S46.name",
+      "descriptionKey": "products.nutram.S46.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "medium",
+      "image": "/assets/pic/S46.png",
+      "benefits": [
+        "products.nutram.S46.benefit1",
+        "products.nutram.S46.benefit2",
+        "products.nutram.S46.benefit3"
+      ],
+      "forWhomKey": "products.nutram.S46.forWhom",
+      "tags": ["with-grains", "adult", "sensitive-skin", "digestive-health", "medium-breed"]
+    },
+    "S49": {
+      "code": "S49",
+      "series": "Sound",
+      "name": "Nutram Sound Balanced Wellness Venison & Pearled Barley Recipe",
+      "nameKey": "products.nutram.S49.name",
+      "descriptionKey": "products.nutram.S49.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "medium",
+      "image": "/assets/pic/S49.png",
+      "benefits": [
+        "products.nutram.S49.benefit1",
+        "products.nutram.S49.benefit2",
+        "products.nutram.S49.benefit3"
+      ],
+      "forWhomKey": "products.nutram.S49.forWhom",
+      "tags": ["with-grains", "adult", "venison", "sensitive-skin", "medium-breed"]
+    },
+    "I12": {
+      "code": "I12",
+      "series": "Ideal",
+      "name": "Nutram Ideal Solution Support Weight Control Cat",
+      "nameKey": "products.nutram.I12.name",
+      "descriptionKey": "products.nutram.I12.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "specialNeed": "weight-control",
+      "image": "/assets/pic/I12.png",
+      "benefits": [
+        "products.nutram.I12.benefit1",
+        "products.nutram.I12.benefit2",
+        "products.nutram.I12.benefit3"
+      ],
+      "forWhomKey": "products.nutram.I12.forWhom",
+      "tags": ["with-grains", "adult-cat", "weight-management", "low-calorie"]
+    },
+    "I14": {
+      "code": "I14",
+      "series": "Ideal",
+      "name": "Nutram Ideal Solution Support Sensitive Skin, Coat & Stomach Puppy",
+      "nameKey": "products.nutram.I14.name",
+      "descriptionKey": "products.nutram.I14.description",
+      "category": "dog",
+      "ageGroup": "puppy",
+      "sizeGroup": "small-medium",
+      "specialNeed": "sensitive-skin",
+      "image": "/assets/pic/I14.png",
+      "benefits": [
+        "products.nutram.I14.benefit1",
+        "products.nutram.I14.benefit2",
+        "products.nutram.I14.benefit3"
+      ],
+      "forWhomKey": "products.nutram.I14.forWhom",
+      "tags": ["with-grains", "puppy", "sensitive-skin", "digestive-health", "small-medium-breed"]
+    },
+    "I17": {
+      "code": "I17",
+      "series": "Ideal",
+      "name": "Nutram Ideal Solution Support Indoor Shedding Cat",
+      "nameKey": "products.nutram.I17.name",
+      "descriptionKey": "products.nutram.I17.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "specialNeed": "shedding",
+      "image": "/assets/pic/I17.png",
+      "benefits": [
+        "products.nutram.I17.benefit1",
+        "products.nutram.I17.benefit2",
+        "products.nutram.I17.benefit3"
+      ],
+      "forWhomKey": "products.nutram.I17.forWhom",
+      "tags": ["with-grains", "adult-cat", "indoor", "shedding-control", "hairball"]
+    },
+    "I18": {
+      "code": "I18",
+      "series": "Ideal",
+      "name": "Nutram Ideal Solution Support Weight Control Dog",
+      "nameKey": "products.nutram.I18.name",
+      "descriptionKey": "products.nutram.I18.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "all",
+      "specialNeed": "weight-control",
+      "image": "/assets/pic/I18.png",
+      "benefits": [
+        "products.nutram.I18.benefit1",
+        "products.nutram.I18.benefit2",
+        "products.nutram.I18.benefit3"
+      ],
+      "forWhomKey": "products.nutram.I18.forWhom",
+      "tags": ["with-grains", "adult", "weight-management", "low-calorie", "all-breeds"]
+    },
+    "I19": {
+      "code": "I19",
+      "series": "Ideal",
+      "name": "Nutram Ideal Solution Support Sensitive Skin, Coat & Stomach Cat",
+      "nameKey": "products.nutram.I19.name",
+      "descriptionKey": "products.nutram.I19.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "specialNeed": "sensitive-skin",
+      "image": "/assets/pic/I19.png",
+      "benefits": [
+        "products.nutram.I19.benefit1",
+        "products.nutram.I19.benefit2",
+        "products.nutram.I19.benefit3"
+      ],
+      "forWhomKey": "products.nutram.I19.forWhom",
+      "tags": ["with-grains", "adult-cat", "sensitive-skin", "digestive-health"]
+    },
+    "I20": {
+      "code": "I20",
+      "series": "Ideal",
+      "name": "Nutram Ideal Solution Support Sensitive Skin, Coat & Stomach Dog",
+      "nameKey": "products.nutram.I20.name",
+      "descriptionKey": "products.nutram.I20.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "all",
+      "specialNeed": "sensitive-skin",
+      "image": "/assets/pic/I20.png",
+      "benefits": [
+        "products.nutram.I20.benefit1",
+        "products.nutram.I20.benefit2",
+        "products.nutram.I20.benefit3"
+      ],
+      "forWhomKey": "products.nutram.I20.forWhom",
+      "tags": ["with-grains", "adult", "sensitive-skin", "digestive-health", "all-breeds"]
+    }
+  },
+  "metadata": {
+    "brand": "Nutram",
+    "lastUpdated": "2025-10-23",
+    "totalProducts": 25,
+    "series": {
+      "Total": {
+        "description": "Grain-free recipes with premium proteins",
+        "descriptionKey": "series.total.description",
+        "count": 9
+      },
+      "Sound": {
+        "description": "Balanced wellness with wholesome grains",
+        "descriptionKey": "series.sound.description",
+        "count": 11
+      },
+      "Ideal": {
+        "description": "Targeted solutions for specific health needs",
+        "descriptionKey": "series.ideal.description",
+        "count": 6
+      }
+    }
+  }
+}

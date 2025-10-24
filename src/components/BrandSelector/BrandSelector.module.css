@@ -1,0 +1,334 @@
+/**
+ * BrandSelector Styles
+ *
+ * Landing page with brand cards
+ * Dark theme with purple accents and smooth animations
+ */
+
+/* Main container */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl) var(--spacing-lg);
+  background-color: var(--color-bg-primary);
+  animation: fadeIn var(--transition-normal);
+}
+
+/* Header section */
+.header {
+  text-align: center;
+  margin-bottom: var(--spacing-3xl);
+  max-width: 800px;
+}
+
+.title {
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-md);
+  background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 50%, var(--color-primary-dark) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: slideDown var(--transition-normal);
+}
+
+.subtitle {
+  font-size: var(--font-size-xl);
+  color: var(--color-text-secondary);
+  animation: slideDown var(--transition-slow);
+  animation-delay: 0.1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+/* Brand cards grid */
+.brandGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-xl);
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: var(--spacing-3xl);
+}
+
+/* Brand card - HIGHLY VISIBLE */
+.brandCard {
+  position: relative;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.3) 0%, rgba(124, 58, 237, 0.5) 100%);
+  border: 3px solid var(--color-primary);
+  border-radius: var(--radius-2xl);
+  padding: var(--spacing-2xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-lg);
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  animation: slideUp var(--transition-slow);
+  animation-fill-mode: forwards;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.6);
+  opacity: 1;
+}
+
+/* Stagger animation for cards */
+.brandCard:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.brandCard:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.brandCard:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+/* Card hover effect (only for available brands) */
+.brandCard:not(.brandCardDisabled):hover {
+  transform: translateY(-8px);
+  border-color: var(--brand-color);
+  box-shadow: 0 0 30px rgba(var(--brand-color-rgb), 0.3), var(--shadow-xl);
+}
+
+.brandCard:not(.brandCardDisabled):active {
+  transform: translateY(-4px);
+}
+
+/* Disabled card */
+.brandCardDisabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.brandCardDisabled:hover {
+  transform: none;
+  border-color: var(--color-border);
+}
+
+/* Brand logo */
+.brandLogo {
+  margin-bottom: var(--spacing-md);
+}
+
+.brandLogoCircle {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  color: white;
+  box-shadow: var(--shadow-lg);
+  transition: all var(--transition-normal);
+}
+
+.brandCard:not(.brandCardDisabled):hover .brandLogoCircle {
+  transform: scale(1.1);
+  box-shadow: var(--shadow-primary-lg);
+}
+
+/* Brand name */
+.brandName {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+/* Brand description */
+.brandDescription {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  text-align: center;
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}
+
+/* Feature list */
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: var(--spacing-md) 0;
+  width: 100%;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) 0;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.checkIcon {
+  width: 16px;
+  height: 16px;
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+/* Coming soon badge */
+.comingSoonBadge {
+  position: absolute;
+  top: var(--spacing-md);
+  right: var(--spacing-md);
+  background: linear-gradient(135deg, var(--color-warning) 0%, #ea580c 100%);
+  color: white;
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: var(--shadow-md);
+}
+
+/* RTL support */
+[dir="rtl"] .comingSoonBadge {
+  right: auto;
+  left: var(--spacing-md);
+}
+
+/* Select button */
+.selectButton {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md) var(--spacing-xl);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: white;
+  border: none;
+  border-radius: var(--radius-lg);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  width: 100%;
+  justify-content: center;
+  margin-top: auto;
+  box-shadow: var(--shadow-md);
+}
+
+.selectButton:hover {
+  background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
+  box-shadow: var(--shadow-primary);
+  transform: translateY(-2px);
+}
+
+.selectButton:active {
+  transform: translateY(0);
+}
+
+.arrowIcon {
+  width: 20px;
+  height: 20px;
+  transition: transform var(--transition-fast);
+}
+
+.selectButton:hover .arrowIcon {
+  transform: translateX(4px);
+}
+
+/* RTL support for arrow */
+[dir="rtl"] .selectButton:hover .arrowIcon {
+  transform: translateX(-4px);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: auto;
+  padding-top: var(--spacing-2xl);
+  opacity: 0;
+  animation: fadeIn var(--transition-slow);
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+}
+
+.footerText {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-tertiary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.footerSubtext {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .brandGrid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .container {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+
+  .header {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .title {
+    font-size: var(--font-size-3xl);
+  }
+
+  .subtitle {
+    font-size: var(--font-size-lg);
+  }
+
+  .brandGrid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+
+  .brandCard {
+    padding: var(--spacing-xl);
+  }
+
+  .brandLogoCircle {
+    width: 60px;
+    height: 60px;
+    font-size: var(--font-size-2xl);
+  }
+
+  .brandName {
+    font-size: var(--font-size-xl);
+  }
+
+  .brandDescription {
+    font-size: var(--font-size-sm);
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .title {
+    font-size: var(--font-size-2xl);
+  }
+
+  .subtitle {
+    font-size: var(--font-size-base);
+  }
+
+  .brandCard {
+    padding: var(--spacing-lg);
+  }
+}

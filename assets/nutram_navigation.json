@@ -1,0 +1,1819 @@
+[
+  {
+    "page_number": 1,
+    "page_name": "page1",
+    "question": "?יש לך כלב או חתול",
+    "buttons": [
+      {
+        "text": "חתול",
+        "target_page": 81
+      },
+      {
+        "text": "כלב",
+        "target_page": 2
+      }
+    ]
+  },
+  {
+    "page_number": 2,
+    "page_name": "page2",
+    "question": "?האם הכלב צריך מזון נטול דגנים",
+    "buttons": [
+      {
+        "text": "לא משנה כל עוד זה המזון הטוב ביותר",
+        "target_page": 38
+      },
+      {
+        "text": "נטול דגנים",
+        "target_page": 3
+      },
+      {
+        "text": ",לא עדיף מזון עם דגנים",
+        "target_page": 13
+      }
+    ]
+  },
+  {
+    "page_number": 3,
+    "page_name": "page3",
+    "question": "?מה גילו של הכלב",
+    "buttons": [
+      {
+        "text": "מבוגר סניור",
+        "target_page": 4
+      },
+      {
+        "text": "גור",
+        "target_page": 4
+      },
+      {
+        "text": "בוגר",
+        "target_page": 4
+      }
+    ]
+  },
+  {
+    "page_number": 4,
+    "page_name": "page4",
+    "question": "?מה משקלו של הכלב",
+    "buttons": [
+      {
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 12
+      },
+      {
+        "text": "כלב בינוני 11-22 ק\"ג",
+        "target_page": 8
+      },
+      {
+        "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
+        "target_page": 8
+      }
+    ]
+  },
+  {
+    "page_number": 5,
+    "page_name": "page5",
+    "question": "האם יש לכלב צרכים מיוחדים?  ",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 6
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 7
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 6
+      }
+    ]
+  },
+  {
+    "page_number": 6,
+    "page_name": "page6",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T29",
+        "target_page": 6
+      },
+      {
+        "text": "T28",
+        "target_page": 6
+      }
+    ]
+  },
+  {
+    "page_number": 7,
+    "page_name": "page7",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T29",
+        "target_page": 7
+      },
+      {
+        "text": "T28",
+        "target_page": 7
+      },
+      {
+        "text": "T27",
+        "target_page": 7
+      }
+    ]
+  },
+  {
+    "page_number": 8,
+    "page_name": "page8",
+    "question": "האם יש לכלב צרכים מיוחדים?  ",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 10
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 11
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 9
+      }
+    ]
+  },
+  {
+    "page_number": 9,
+    "page_name": "page9",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 9
+      },
+      {
+        "text": "T25",
+        "target_page": 9
+      }
+    ]
+  },
+  {
+    "page_number": 10,
+    "page_name": "page10",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 10
+      }
+    ]
+  },
+  {
+    "page_number": 11,
+    "page_name": "page11",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 11
+      },
+      {
+        "text": "T25",
+        "target_page": 11
+      },
+      {
+        "text": "T23",
+        "target_page": 11
+      }
+    ]
+  },
+  {
+    "page_number": 12,
+    "page_name": "page12",
+    "question": "האם יש לכלב צרכים מיוחדים?",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 10
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 11
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 9
+      }
+    ]
+  },
+  {
+    "page_number": 13,
+    "page_name": "page13",
+    "question": "?מה גילו של הכלב",
+    "buttons": [
+      
+      {
+        "text": "מבוגר סניור",
+        "target_page": 31
+      },
+      {
+        "text": "גור",
+        "target_page": 14
+      },
+      {
+        "text": "בוגר",
+        "target_page": 23
+      }
+    ]
+  },
+  {
+    "page_number": 14,
+    "page_name": "page14",
+    "question": "?מה משקלו של הכלב",
+    "buttons": [
+      {
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 21
+      },
+      {
+        "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
+        "target_page": 15
+      },
+      {
+        "text": "כלב בינוני 11-22 ק\"ג",
+        "target_page": 19
+      }
+    ]
+  },
+  {
+    "page_number": 15,
+    "page_name": "page15",
+    "question": "האם יש לכלב צרכים מיוחדים?  ",
+    "buttons": [
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 18
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 16
+      },
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 17
+      }
+    ]
+  },
+  {
+    "page_number": 16,
+    "page_name": "page16",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I20",
+        "target_page": 16
+      },
+      {
+        "text": "I14",
+        "target_page": 16
+      }
+    ]
+  },
+  
+  {
+    "page_number": 18,
+    "page_name": "page18",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S11",
+        "target_page": 18
+      },
+      {
+        "text": "S2",
+        "target_page": 18
+      }
+    ]
+  },
+  {
+    "page_number": 19,
+    "page_name": "page19",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 17
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 20
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 16
+      }
+    ]
+  },
+  {
+    "page_number": 20,
+    "page_name": "page20",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S2",
+        "target_page": 20
+      }
+    ]
+  },
+  {
+    "page_number": 21,
+    "page_name": "page21",
+    "question": "האם יש לכלב צרכים מיוחדים? כלב קטן",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 17
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 22
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 16
+      }
+    ]
+  },
+  {
+    "page_number": 22,
+    "page_name": "page22",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S3",
+        "target_page": 22
+      }
+    ]
+  },
+  {
+    "page_number": 23,
+    "page_name": "page23",
+    "question": "?מה משקלו של הכלב",
+    "buttons": [
+      {
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 22
+      },
+      {
+        "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
+        "target_page": 24
+      },
+      {
+        "text": "כלב בינוני 11-22 ק\"ג",
+        "target_page": 28
+      }
+    ]
+  },
+  {
+    "page_number": 24,
+    "page_name": "page24",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 26
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 27
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 25
+      },
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 26
+      }
+    ]
+  },
+  {
+    "page_number": 25,
+    "page_name": "page25",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I20",
+        "target_page": 25
+      }
+    ]
+  },
+  {
+    "page_number": 26,
+    "page_name": "page26",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I18",
+        "target_page": 26
+      }
+    ]
+  },
+  {
+    "page_number": 27,
+    "page_name": "page27",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S7",
+        "target_page": 27
+      }
+    ]
+  },
+  {
+    "page_number": 28,
+    "page_name": "page28",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 30
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 30
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 29
+      },
+      {
+        "text": "שמירת משקל",
+        "target_page": 26
+      }
+    ]
+  },
+  {
+    "page_number": 29,
+    "page_name": "page29",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I20",
+        "target_page": 29
+      },
+      {
+        "text": "S49",
+        "target_page": 29
+      },
+      {
+        "text": "S46",
+        "target_page": 29
+      }
+    ]
+  },
+  {
+    "page_number": 30,
+    "page_name": "page30",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S9",
+        "target_page": 30
+      },
+      {
+        "text": "S6",
+        "target_page": 30
+      }
+    ]
+  },
+  {
+    "page_number": 31,
+    "page_name": "page31",
+    "question": "?מה משקלו של הכלב",
+    "buttons": [
+      {
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 35
+      },
+      {
+        "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
+        "target_page": 32
+      },
+      {
+        "text": "כלב בינוני 11-22 ק\"ג",
+        "target_page": 33
+      }
+    ]
+  },
+  {
+    "page_number": 32,
+    "page_name": "page32",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 17
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 27
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 25
+      }
+    ]
+  },
+  {
+    "page_number": 33,
+    "page_name": "page33",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 34
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 34
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 25
+      },
+      {
+        "text": "שמירת משקל",
+        "target_page": 34
+      }
+    ]
+  },
+  {
+    "page_number": 34,
+    "page_name": "page34",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S10",
+        "target_page": 34
+      }
+    ]
+  },
+  {
+    "page_number": 35,
+    "page_name": "page35",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 36
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 36
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 37
+      },
+      {
+        "text": "שמירת משקל",
+        "target_page": 36
+      }
+    ]
+  },
+  {
+    "page_number": 36,
+    "page_name": "page36",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S10",
+        "target_page": 36
+      },
+      {
+        "text": "S8",
+        "target_page": 36
+      }
+    ]
+  },
+  {
+    "page_number": 37,
+    "page_name": "page37",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I20",
+        "target_page": 37
+      },
+      {
+        "text": "S8",
+        "target_page": 37
+      }
+    ]
+  },
+  {
+    "page_number": 38,
+    "page_name": "page38",
+    "question": "?מה גילו של הכלב",
+    "buttons": [
+      
+      {
+        "text": "מבוגר סניור",
+        "target_page": 68
+      },
+      {
+        "text": "גור",
+        "target_page": 39
+      },
+      {
+        "text": "בוגר",
+        "target_page": 53
+      }
+    ]
+  },
+  {
+    "page_number": 39,
+    "page_name": "page39",
+    "question": "?מה משקלו של הכלב",
+    "buttons": [
+      {
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 50
+      },
+      {
+        "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
+        "target_page": 40
+      },
+      {
+        "text": "כלב בינוני 11-22 ק\"ג",
+        "target_page": 45
+      }
+    ]
+  },
+  {
+    "page_number": 40,
+    "page_name": "page40",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 43
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 44
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 42
+      },
+      {
+        "text": "שמירת משקל",
+        "target_page": 41
+      }
+    ]
+  },
+  {
+    "page_number": 41,
+    "page_name": "page41",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S11",
+        "target_page": 41
+      },
+      {
+        "text": "S2",
+        "target_page": 41
+      }
+    ]
+  },
+  {
+    "page_number": 42,
+    "page_name": "page42",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I20",
+        "target_page": 42
+      },
+      {
+        "text": "I14",
+        "target_page": 42
+      },
+      {
+        "text": "T28",
+        "target_page": 42
+      },
+      {
+        "text": "T29",
+        "target_page": 42
+      }
+    ]
+  },
+  {
+    "page_number": 43,
+    "page_name": "page43",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T28",
+        "target_page": 43
+      },
+      {
+        "text": "T29",
+        "target_page": 43
+      }
+    ]
+  },
+  {
+    "page_number": 44,
+    "page_name": "page44",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T28",
+        "target_page": 44
+      },
+      {
+        "text": "T27",
+        "target_page": 44
+      },
+      {
+        "text": "S11",
+        "target_page": 44
+      },
+      {
+        "text": "S2",
+        "target_page": 44
+      },
+      {
+        "text": "T29",
+        "target_page": 44
+      }
+    ]
+  },
+  {
+    "page_number": 45,
+    "page_name": "page45",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 48
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 49
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 47
+      },
+      {
+        "text": "שמירת משקל",
+        "target_page": 46
+      }
+    ]
+  },
+  {
+    "page_number": 46,
+    "page_name": "page46",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S2",
+        "target_page": 46
+      }
+    ]
+  },
+  {
+    "page_number": 47,
+    "page_name": "page47",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 47
+      },
+      {
+        "text": "T25",
+        "target_page": 47
+      },
+      {
+        "text": "I20",
+        "target_page": 47
+      },
+      {
+        "text": "I14",
+        "target_page": 47
+      }
+    ]
+  },
+  {
+    "page_number": 48,
+    "page_name": "page48",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 48
+      }
+    ]
+  },
+  {
+    "page_number": 49,
+    "page_name": "page49",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 49
+      },
+      {
+        "text": "T25",
+        "target_page": 49
+      },
+      {
+        "text": "T23",
+        "target_page": 49
+      },
+      {
+        "text": "S2",
+        "target_page": 49
+      }
+    ]
+  },
+  {
+    "page_number": 50,
+    "page_name": "page50",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 48
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 52
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 47
+      },
+      {
+        "text": "שמירת משקל",
+        "target_page": 51
+      }
+    ]
+  },
+  {
+    "page_number": 51,
+    "page_name": "page51",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S3",
+        "target_page": 50
+      }
+    ]
+  },
+  {
+    "page_number": 52,
+    "page_name": "page52",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 52
+      },
+      {
+        "text": "T25",
+        "target_page": 52
+      },
+      {
+        "text": "T23",
+        "target_page": 52
+      },
+      {
+        "text": "S3",
+        "target_page": 52
+      }
+    ]
+  },
+  {
+    "page_number": 53,
+    "page_name": "page53",
+    "question": "?מה משקלו של הכלב",
+    "buttons": [
+      {
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 63
+      },
+      {
+        "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
+        "target_page": 54
+      },
+      {
+        "text": "כלב בינוני 11-22 ק\"ג",
+        "target_page": 59
+      }
+    ]
+  },
+  {
+    "page_number": 54,
+    "page_name": "page54",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 57
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 58
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 56
+      },
+      {
+        "text": "שמירת משקל",
+        "target_page": 55
+      }
+    ]
+  },
+  {
+    "page_number": 55,
+    "page_name": "page55",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I18",
+        "target_page": 55
+      }
+    ]
+  },
+  {
+    "page_number": 56,
+    "page_name": "page56",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I20",
+        "target_page": 56
+      },
+      {
+        "text": "T28",
+        "target_page": 56
+      },
+      {
+        "text": "T29",
+        "target_page": 56
+      }
+    ]
+  },
+  {
+    "page_number": 57,
+    "page_name": "page57",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T29",
+        "target_page": 57
+      },
+      {
+        "text": "T28",
+        "target_page": 57
+      },
+      {
+        "text": "I18",
+        "target_page": 57
+      }
+    ]
+  },
+  {
+    "page_number": 58,
+    "page_name": "page58",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T29",
+        "target_page": 58
+      },
+      {
+        "text": "T28",
+        "target_page": 58
+      },
+      {
+        "text": "T27",
+        "target_page": 58
+      },
+      {
+        "text": "S7",
+        "target_page": 58
+      }
+    ]
+  },
+  {
+    "page_number": 59,
+    "page_name": "page59",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 61
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 62
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 60
+      },
+      {
+        "text": "שמירת משקל",
+        "target_page": 55
+      }
+    ]
+  },
+  {
+    "page_number": 60,
+    "page_name": "page60",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T25",
+        "target_page": 60
+      },
+      {
+        "text": "I20",
+        "target_page": 60
+      },
+      {
+        "text": "T49",
+        "target_page": 60
+      },
+      {
+        "text": "S46",
+        "target_page": 60
+      }
+    ]
+  },
+  {
+    "page_number": 61,
+    "page_name": "page61",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 61
+      },
+      {
+        "text": "I18",
+        "target_page": 61
+      }
+    ]
+  },
+  {
+    "page_number": 62,
+    "page_name": "page62",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T25",
+        "target_page": 62
+      },
+      {
+        "text": "T23",
+        "target_page": 62
+      },
+      {
+        "text": "S9",
+        "target_page": 62
+      },
+      {
+        "text": "S6",
+        "target_page": 62
+      },
+      {
+        "text": "T26",
+        "target_page": 62
+      }
+    ]
+  },
+  {
+    "page_number": 63,
+    "page_name": "page63",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 66
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 67
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 65
+      },
+      {
+        "text": "שמירת משקל",
+        "target_page": 64
+      }
+    ]
+  },
+  {
+    "page_number": 64,
+    "page_name": "page64",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S8",
+        "target_page": 64
+      }
+    ]
+  },
+  {
+    "page_number": 65,
+    "page_name": "page65",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I20",
+        "target_page": 65
+      },
+      {
+        "text": "S49",
+        "target_page": 65
+      },
+      {
+        "text": "S46",
+        "target_page": 65
+      },
+      {
+        "text": "S8",
+        "target_page": 65
+      },
+      {
+        "text": "T25",
+        "target_page": 65
+      },
+      {
+        "text": "T26",
+        "target_page": 65
+      }
+    ]
+  },
+  {
+    "page_number": 66,
+    "page_name": "page66",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 66
+      },
+      {
+        "text": "S8",
+        "target_page": 66
+      }
+    ]
+  },
+  {
+    "page_number": 67,
+    "page_name": "page67",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 67
+      },
+      {
+        "text": "T25",
+        "target_page": 67
+      },
+      {
+        "text": "T23",
+        "target_page": 67
+      },
+      {
+        "text": "S8",
+        "target_page": 67
+      }
+    ]
+  },
+  {
+    "page_number": 68,
+    "page_name": "page68",
+    "question": "?מה משקלו של הכלב",
+    "buttons": [
+      {
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 75
+      },
+      {
+        "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
+        "target_page": 69
+      },
+      {
+        "text": "כלב בינוני 11-22 ק\"ג",
+        "target_page": 70
+      }
+    ]
+  },
+  {
+    "page_number": 69,
+    "page_name": "page69",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 43
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 58
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 79
+      }
+    ]
+  },
+  {
+    "page_number": 70,
+    "page_name": "page70",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 73
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 74
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 72
+      },
+      {
+        "text": "שמירת משקל",
+        "target_page": 71
+      }
+    ]
+  },
+  {
+    "page_number": 71,
+    "page_name": "page71",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S10",
+        "target_page": 71
+      }
+    ]
+  },
+  {
+    "page_number": 72,
+    "page_name": "page72",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 72
+      },
+      {
+        "text": "T25",
+        "target_page": 72
+      },
+      {
+        "text": "I20",
+        "target_page": 72
+      }
+    ]
+  },
+  {
+    "page_number": 73,
+    "page_name": "page73",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 73
+      },
+      {
+        "text": "S10",
+        "target_page": 73
+      }
+    ]
+  },
+  {
+    "page_number": 74,
+    "page_name": "page74",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 74
+      },
+      {
+        "text": "T25",
+        "target_page": 74
+      },
+      {
+        "text": "T23",
+        "target_page": 74
+      },
+      {
+        "text": "S10",
+        "target_page": 74
+      }
+    ]
+  },
+  {
+    "page_number": 75,
+    "page_name": "page75",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "ניידות התמקדות בתנועה",
+        "target_page": 76
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 78
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 77
+      },
+      {
+        "text": "שמירת משקל",
+        "target_page": 76
+      }
+    ]
+  },
+  {
+    "page_number": 76,
+    "page_name": "page76",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S8",
+        "target_page": 76
+      },
+      {
+        "text": "S10",
+        "target_page": 76
+      }
+    ]
+  },
+  {
+    "page_number": 77,
+    "page_name": "page77",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T26",
+        "target_page": 77
+      },
+      {
+        "text": "T25",
+        "target_page": 77
+      },
+      {
+        "text": "I20",
+        "target_page": 77
+      },
+      {
+        "text": "S8",
+        "target_page": 77
+      }
+    ]
+  },
+  {
+    "page_number": 78,
+    "page_name": "page78",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T25",
+        "target_page": 78
+      },
+      {
+        "text": "T23",
+        "target_page": 78
+      },
+      {
+        "text": "S10",
+        "target_page": 78
+      },
+      {
+        "text": "S8",
+        "target_page": 78
+      },
+      {
+        "text": "T26",
+        "target_page": 78
+      }
+    ]
+  },
+  {
+    "page_number": 79,
+    "page_name": "page79",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T29",
+        "target_page": 72
+      },
+      {
+        "text": "T28",
+        "target_page": 72
+      },
+      {
+        "text": "I20",
+        "target_page": 72
+      }
+    ]
+  },
+  
+  {
+    "page_number": 81,
+    "page_name": "page81",
+    "question": "?האם החתול צריך מזון נטול דגנים",
+    "buttons": [
+      {
+        "text": "לא משנה כל עוד זה המזון הטוב ביותר",
+        "target_page": 95
+      },
+      {
+        "text": "נטול דגנים",
+        "target_page": 82
+      },
+      {
+        "text": ",לא עדיף מזון עם דגנים",
+        "target_page": 86
+      }
+    ]
+  },
+  {
+    "page_number": 82,
+    "page_name": "page82",
+    "question": "?מה גילו של החתול",
+    "buttons": [
+      {
+        "text": "מבוגר סניור",
+        "target_page": 83
+      },
+      {
+        "text": "גור חתולים",
+        "target_page": 83
+      },
+      {
+        "text": "חתול בוגר",
+        "target_page": 83
+      }
+    ]
+  },
+  {
+    "page_number": 83,
+    "page_name": "page83",
+    "question": "?האם יש לחתול צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 85
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 84
+      },
+      {
+        "text": "יורינרי",
+        "target_page": 85
+      }
+    ]
+  },
+  {
+    "page_number": 84,
+    "page_name": "page84",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T24",
+        "target_page": 84
+      }
+    ]
+  },
+  {
+    "page_number": 85,
+    "page_name": "page85",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T24",
+        "target_page": 85
+      },
+      {
+        "text": "T22",
+        "target_page": 85
+      }
+    ]
+  },
+  {
+    "page_number": 86,
+    "page_name": "page86",
+    "question": "?מה גילו של החתול",
+    "buttons": [
+      {
+        "text": "מבוגר סניור",
+        "target_page": 89
+      },
+      {
+        "text": "גור חתולים",
+        "target_page": 87
+      },
+      {
+        "text": "חתול בוגר",
+        "target_page": 89
+      }
+    ]
+  },
+  {
+    "page_number": 87,
+    "page_name": "page87",
+    "question": "?האם יש לחתול צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 88
+      },
+      {
+        "text": "יורינרי",
+        "target_page": 88
+      }
+    ]
+  },
+  {
+    "page_number": 88,
+    "page_name": "page88",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S1",
+        "target_page": 88
+      }
+    ]
+  },
+  {
+    "page_number": 89,
+    "page_name": "page89",
+    "question": "?האם יש לחתול צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 94
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 91
+      },
+      {
+        "text": "יורינרי",
+        "target_page": 93
+      },
+      {
+        "text": "שמירת משקל",
+        "target_page": 90
+      },
+      {
+        "text": "נשירה",
+        "target_page": 92
+      }
+    ]
+  },
+  {
+    "page_number": 90,
+    "page_name": "page90",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I12",
+        "target_page": 90
+      }
+    ]
+  },
+  {
+    "page_number": 91,
+    "page_name": "page91",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I19",
+        "target_page": 91
+      }
+    ]
+  },
+  {
+    "page_number": 92,
+    "page_name": "page92",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I17",
+        "target_page": 92
+      }
+    ]
+  },
+  {
+    "page_number": 93,
+    "page_name": "page93",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I19",
+        "target_page": 93
+      },
+      {
+        "text": "I17",
+        "target_page": 93
+      },
+      {
+        "text": "I12",
+        "target_page": 93
+      },
+      {
+        "text": "S5",
+        "target_page": 93
+      }
+    ]
+  },
+  {
+    "page_number": 94,
+    "page_name": "page94",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "S5",
+        "target_page": 94
+      }
+    ]
+  },
+  {
+    "page_number": 95,
+    "page_name": "page95",
+    "question": "?מה גילו של החתול",
+    "buttons": [
+      {
+        "text": "מבוגר סניור",
+        "target_page": 98
+      },
+      {
+        "text": "גור חתולים",
+        "target_page": 96
+      },
+      {
+        "text": "חתול בוגר",
+        "target_page": 98
+      }
+    ]
+  },
+  {
+    "page_number": 96,
+    "page_name": "page96",
+    "question": "?האם יש לחתול צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 97
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 84
+      },
+      {
+        "text": "יורינרי",
+        "target_page": 97
+      }
+    ]
+  },
+  {
+    "page_number": 97,
+    "page_name": "page97",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T24",
+        "target_page": 97
+      },
+      {
+        "text": "T22",
+        "target_page": 97
+      },
+      {
+        "text": "S2",
+        "target_page": 97
+      }
+    ]
+  },
+  {
+    "page_number": 98,
+    "page_name": "page98",
+    "question": "?האם יש לחתול צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 101
+      },
+      {
+        "text": "עור רגיש, פרווה וקיבה",
+        "target_page": 99
+      },
+      {
+        "text": "יורינרי",
+        "target_page": 100
+      },
+      {
+        "text": "שמירת משקל",
+        "target_page": 90
+      },
+      {
+        "text": "נשירה",
+        "target_page": 92
+      }
+    ]
+  },
+  {
+    "page_number": 99,
+    "page_name": "page99",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T24",
+        "target_page": 98
+      },
+      {
+        "text": "I19",
+        "target_page": 98
+      }
+    ]
+  },
+  {
+    "page_number": 100,
+    "page_name": "page100",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "I19",
+        "target_page": 100
+      },
+      {
+        "text": "I17",
+        "target_page": 100
+      },
+      {
+        "text": "I12",
+        "target_page": 100
+      },
+      {
+        "text": "S5",
+        "target_page": 100
+      },
+      {
+        "text": "T22",
+        "target_page": 100
+      },
+      {
+        "text": "T24",
+        "target_page": 100
+      }
+    ]
+  },
+  {
+    "page_number": 101,
+    "page_name": "page101",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "T24",
+        "target_page": 101
+      },
+      {
+        "text": "T22",
+        "target_page": 101
+      },
+      {
+        "text": "S5",
+        "target_page": 101
+      }
+    ]
+  }
+]
