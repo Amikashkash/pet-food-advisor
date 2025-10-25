@@ -58,16 +58,17 @@
     "question": "?מה משקלו של הכלב",
     "buttons": [
       {
-        "text": "כלב גדול מעל 23 ק\"ג",
-        "target_page": 12
+        "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
+        "target_page": 54
       },
+
       {
         "text": "כלב בינוני 11-22 ק\"ג",
-        "target_page": 8
+        "target_page": 59
       },
       {
-        "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
-        "target_page": 5
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 63
       }
     ]
   },
@@ -212,7 +213,6 @@
     "page_name": "page13",
     "question": "?מה גילו של הכלב",
     "buttons": [
-      
       {
         "text": "מבוגר סניור",
         "target_page": 31
@@ -233,16 +233,17 @@
     "question": "?מה משקלו של הכלב",
     "buttons": [
       {
-        "text": "כלב גדול מעל 23 ק\"ג",
-        "target_page": 21
-      },
-      {
         "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
-        "target_page": 15
+        "target_page": 54
       },
+
       {
         "text": "כלב בינוני 11-22 ק\"ג",
-        "target_page": 19
+        "target_page": 59
+      },
+      {
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 63
       }
     ]
   },
@@ -280,7 +281,7 @@
       }
     ]
   },
-  
+
   {
     "page_number": 18,
     "page_name": "page18",
@@ -362,16 +363,17 @@
     "question": "?מה משקלו של הכלב",
     "buttons": [
       {
-        "text": "כלב גדול מעל 23 ק\"ג",
-        "target_page": 22
-      },
-      {
         "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
-        "target_page": 24
+        "target_page": 54
       },
+
       {
         "text": "כלב בינוני 11-22 ק\"ג",
-        "target_page": 28
+        "target_page": 59
+      },
+      {
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 63
       }
     ]
   },
@@ -494,16 +496,17 @@
     "question": "?מה משקלו של הכלב",
     "buttons": [
       {
-        "text": "כלב גדול מעל 23 ק\"ג",
-        "target_page": 35
-      },
-      {
         "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
-        "target_page": 32
+        "target_page": 54
       },
+
       {
         "text": "כלב בינוני 11-22 ק\"ג",
-        "target_page": 33
+        "target_page": 59
+      },
+      {
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 63
       }
     ]
   },
@@ -618,7 +621,6 @@
     "page_name": "page38",
     "question": "?מה גילו של הכלב",
     "buttons": [
-      
       {
         "text": "מבוגר סניור",
         "target_page": 68
@@ -639,16 +641,17 @@
     "question": "?מה משקלו של הכלב",
     "buttons": [
       {
-        "text": "כלב גדול מעל 23 ק\"ג",
-        "target_page": 50
-      },
-      {
         "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
-        "target_page": 40
+        "target_page": 54
       },
+
       {
         "text": "כלב בינוני 11-22 ק\"ג",
-        "target_page": 45
+        "target_page": 59
+      },
+      {
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 63
       }
     ]
   },
@@ -909,16 +912,17 @@
     "question": "?מה משקלו של הכלב",
     "buttons": [
       {
-        "text": "כלב גדול מעל 23 ק\"ג",
-        "target_page": 63
-      },
-      {
         "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
         "target_page": 54
       },
+
       {
         "text": "כלב בינוני 11-22 ק\"ג",
         "target_page": 59
+      },
+      {
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 63
       }
     ]
   },
@@ -1214,16 +1218,17 @@
     "question": "?מה משקלו של הכלב",
     "buttons": [
       {
-        "text": "כלב גדול מעל 23 ק\"ג",
-        "target_page": 75
-      },
-      {
         "text": "כלב קטן/טוי פחות מ 10 ק\"ג",
-        "target_page": 69
+        "target_page": 54
       },
+
       {
         "text": "כלב בינוני 11-22 ק\"ג",
-        "target_page": 70
+        "target_page": 59
+      },
+      {
+        "text": "כלב גדול מעל 23 ק\"ג",
+        "target_page": 63
       }
     ]
   },
@@ -1444,7 +1449,7 @@
       }
     ]
   },
-  
+
   {
     "page_number": 81,
     "page_name": "page81",
@@ -1719,7 +1724,7 @@
         "target_page": 97
       },
       {
-        "text": "S2",
+        "text": "S1",
         "target_page": 97
       }
     ]
