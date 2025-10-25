@@ -19,7 +19,9 @@
       "Bash(firebase login:*)",
       "Bash(firebase init:*)",
       "Bash(git commit:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(npm run optimize-images:*)",
+      "Bash(git reset:*)"
     ],
     "deny": [],
     "ask": []

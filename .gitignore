@@ -40,6 +40,10 @@ dist-ssr
 .env.test.local
 .env.production.local
 
+# Firebase secrets
+*-secret.json
+firebase-adminsdk-*.json
+
 # PWA
 sw.js
 workbox-*.js
