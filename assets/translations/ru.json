@@ -17,7 +17,17 @@
     "subtitle": "Мы найдем идеальный корм для вашего питомца",
     "nutram": "Nutram - Холистическое питание",
     "britcare": "Brit Care - Скоро",
-    "carnilove": "Carnilove - Скоро"
+    "carnilove": "Carnilove - Скоро",
+    "comingSoon": "Скоро",
+    "features": {
+      "total": "Total - Беззерновой",
+      "sound": "Sound - Сбалансированное здоровье",
+      "ideal": "Ideal - Целевые решения"
+    },
+    "footer": {
+      "title": "Советник по корму - Рекомендации корма для питомцев",
+      "subtitle": "Интерактивная анкета для поиска идеального корма для вашего питомца"
+    }
   },
 
   "questions": {

@@ -17,7 +17,17 @@
     "subtitle": "אנו נמצא את המזון המושלם לחיית המחמד שלך",
     "nutram": "Nutram - תזונה הוליסטית",
     "britcare": "Brit Care - בקרוב",
-    "carnilove": "Carnilove - בקרוב"
+    "carnilove": "Carnilove - בקרוב",
+    "comingSoon": "בקרוב",
+    "features": {
+      "total": "Total - נטול דגנים",
+      "sound": "Sound - בריאות מאוזנת",
+      "ideal": "Ideal - פתרונות ממוקדים"
+    },
+    "footer": {
+      "title": "יועץ המזון - המלצות מזון לחיות מחמד",
+      "subtitle": "שאלון אינטראקטיבי למציאת המזון המושלם לחיית המחמד שלך"
+    }
   },
 
   "questions": {

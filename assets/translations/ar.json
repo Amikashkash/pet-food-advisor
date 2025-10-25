@@ -17,7 +17,17 @@
     "subtitle": "سنجد الطعام المثالي لحيوانك الأليف",
     "nutram": "Nutram - تغذية شاملة",
     "britcare": "Brit Care - قريباً",
-    "carnilove": "Carnilove - قريباً"
+    "carnilove": "Carnilove - قريباً",
+    "comingSoon": "قريباً",
+    "features": {
+      "total": "Total - خالٍ من الحبوب",
+      "sound": "Sound - صحة متوازنة",
+      "ideal": "Ideal - حلول مستهدفة"
+    },
+    "footer": {
+      "title": "مستشار الطعام - توصيات طعام الحيوانات الأليفة",
+      "subtitle": "استبيان تفاعلي لإيجاد الطعام المثالي لحيوانك الأليف"
+    }
   },
 
   "questions": {

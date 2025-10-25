@@ -67,9 +67,9 @@ const BrandSelector = () => {
       available: true,
       color: '#8b5cf6', // Purple
       features: [
-        'Total - Grain-Free',
-        'Sound - Balanced Wellness',
-        'Ideal - Targeted Solutions'
+        t('brandSelector.features.total'),
+        t('brandSelector.features.sound'),
+        t('brandSelector.features.ideal')
       ]
     },
     {
@@ -166,7 +166,7 @@ const BrandSelector = () => {
             {/* Coming soon badge */}
             {!brand.available && (
               <div className={styles.comingSoonBadge}>
-                Coming Soon
+                {t('brandSelector.comingSoon')}
               </div>
             )}
 
@@ -197,10 +197,10 @@ const BrandSelector = () => {
       {/* Footer with app info */}
       <footer className={styles.footer}>
         <p className={styles.footerText}>
-          Food Advisor - Pet Food Recommendations
+          {t('brandSelector.footer.title')}
         </p>
         <p className={styles.footerSubtext}>
-          Interactive questionnaire to find the perfect food for your pet
+          {t('brandSelector.footer.subtitle')}
         </p>
       </footer>
     </div>

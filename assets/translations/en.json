@@ -17,7 +17,17 @@
     "subtitle": "We'll find the perfect food for your pet",
     "nutram": "Nutram - Holistic Nutrition",
     "britcare": "Brit Care - Coming Soon",
-    "carnilove": "Carnilove - Coming Soon"
+    "carnilove": "Carnilove - Coming Soon",
+    "comingSoon": "Coming Soon",
+    "features": {
+      "total": "Total - Grain-Free",
+      "sound": "Sound - Balanced Wellness",
+      "ideal": "Ideal - Targeted Solutions"
+    },
+    "footer": {
+      "title": "Food Advisor - Pet Food Recommendations",
+      "subtitle": "Interactive questionnaire to find the perfect food for your pet"
+    }
   },
 
   "questions": {
