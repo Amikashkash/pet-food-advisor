@@ -10,7 +10,16 @@
       "Bash(taskkill /F /PID 84188)",
       "Bash(taskkill //F //PID 84188)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Pet Food Advisor web application\n\n- React + Vite PWA application\n- Multi-language support (Hebrew, English, Russian, Arabic)\n- Dark theme with purple accents\n- Interactive questionnaire flow\n- Nutram product recommendations\n- JSON-driven navigation system\n- RTL support for Hebrew and Arabic\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git remote:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(npm install:*)",
+      "Bash(firebase login:*)",
+      "Bash(firebase init:*)",
+      "Bash(git commit:*)",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []
