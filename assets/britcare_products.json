@@ -9,7 +9,7 @@
       "category": "dog",
       "ageGroup": "senior",
       "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/senior-lamb.png",
       "benefits": [
         "products.britcare.BC_DOG_001.benefit1",
         "products.britcare.BC_DOG_001.benefit2",
@@ -35,7 +35,7 @@
       "category": "dog",
       "ageGroup": "adult",
       "sizeGroup": "medium",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/medium-breed-salmon.png",
       "benefits": [
         "products.britcare.BC_DOG_002.benefit1",
         "products.britcare.BC_DOG_002.benefit2",
@@ -60,7 +60,7 @@
       "category": "dog",
       "ageGroup": "adult",
       "sizeGroup": "large",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/large-breed-salmon.png",
       "benefits": [
         "products.britcare.BC_DOG_003.benefit1",
         "products.britcare.BC_DOG_003.benefit2",
@@ -87,7 +87,7 @@
       "category": "dog",
       "ageGroup": "puppy",
       "sizeGroup": "large",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/junior-large-salmon.png",
       "benefits": [
         "products.britcare.BC_DOG_004.benefit1",
         "products.britcare.BC_DOG_004.benefit2",
@@ -114,7 +114,7 @@
       "category": "dog",
       "ageGroup": "puppy",
       "sizeGroup": "medium",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/puppy-medium-salmon.png",
       "benefits": [
         "products.britcare.BC_DOG_005.benefit1",
         "products.britcare.BC_DOG_005.benefit2",
@@ -142,7 +142,7 @@
       "category": "dog",
       "ageGroup": "senior",
       "sizeGroup": "medium",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/senior-light-salmon.png",
       "benefits": [
         "products.britcare.BC_DOG_006.benefit1",
         "products.britcare.BC_DOG_006.benefit2",
@@ -169,7 +169,7 @@
       "category": "dog",
       "ageGroup": "adult",
       "sizeGroup": "large",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/large-breed-lamb.png",
       "benefits": [
         "products.britcare.BC_DOG_007.benefit1",
         "products.britcare.BC_DOG_007.benefit2",
@@ -194,7 +194,7 @@
       "category": "dog",
       "ageGroup": "adult",
       "sizeGroup": "medium",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/medium-breed-lamb.png",
       "benefits": [
         "products.britcare.BC_DOG_008.benefit1",
         "products.britcare.BC_DOG_008.benefit2",
@@ -219,7 +219,7 @@
       "category": "dog",
       "ageGroup": "adult",
       "sizeGroup": "medium",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/mini-salmon-herring.png",
       "benefits": [
         "products.britcare.BC_DOG_009.benefit1",
         "products.britcare.BC_DOG_009.benefit2",
@@ -245,7 +245,7 @@
       "category": "dog",
       "ageGroup": "puppy",
       "sizeGroup": "large",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/large-breed-lamb.png",
       "benefits": [
         "products.britcare.BC_DOG_010.benefit1",
         "products.britcare.BC_DOG_010.benefit2",
@@ -270,7 +270,7 @@
       "category": "dog",
       "ageGroup": "puppy",
       "sizeGroup": "medium",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/puppy-lamb.png",
       "benefits": [
         "products.britcare.BC_DOG_011.benefit1",
         "products.britcare.BC_DOG_011.benefit2",
@@ -295,7 +295,7 @@
       "category": "dog",
       "ageGroup": "adult",
       "sizeGroup": "medium",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/dog-weight-loss.png",
       "benefits": [
         "products.britcare.BC_DOG_012.benefit1",
         "products.britcare.BC_DOG_012.benefit2",
@@ -321,7 +321,7 @@
       "category": "dog",
       "ageGroup": "puppy",
       "sizeGroup": "mini",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/mini-puppy.png",
       "benefits": [
         "products.britcare.BC_DOG_013.benefit1",
         "products.britcare.BC_DOG_013.benefit2",
@@ -347,7 +347,7 @@
       "category": "dog",
       "ageGroup": "adult",
       "sizeGroup": "mini",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/mini-adult-lamb.png",
       "benefits": [
         "products.britcare.BC_DOG_014.benefit1",
         "products.britcare.BC_DOG_014.benefit2",
@@ -373,7 +373,7 @@
       "category": "dog",
       "ageGroup": "adult",
       "sizeGroup": "mini",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/mini-salmon-herring.png",
       "benefits": [
         "products.britcare.BC_DOG_015.benefit1",
         "products.britcare.BC_DOG_015.benefit2",
@@ -400,7 +400,7 @@
       "category": "dog",
       "ageGroup": "adult",
       "sizeGroup": "small",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/small-breed-lamb.png",
       "benefits": [
         "products.britcare.BC_DOG_016.benefit1",
         "products.britcare.BC_DOG_016.benefit2",
