@@ -13,6 +13,10 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'robots.txt', 'assets/**/*'],
+      devOptions: {
+        enabled: true,
+        type: 'module'
+      },
       manifest: {
         name: 'Food Advisor - Pet Food Recommendations',
         short_name: 'Food Advisor',
@@ -24,7 +28,7 @@ export default defineConfig({
         scope: '/',
         start_url: '/',
         lang: 'he',
-        dir: 'auto',
+        dir: 'rtl',
         icons: [
           {
             src: '/icons/icon-192x192.png',
