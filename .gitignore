@@ -51,3 +51,7 @@ workbox-*.js
 # OS
 Thumbs.db
 .DS_Store
+
+# Excel temp files
+~$*.xlsx
+~$*.xls

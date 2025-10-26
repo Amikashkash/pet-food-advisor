@@ -1,178 +1,616 @@
 {
   "products": {
-    "BRITCARE_PUPPY_01": {
-      "code": "BRITCARE_PUPPY_01",
-      "series": "Puppy",
-      "name": "Brit Care Puppy Placeholder Product",
-      "nameKey": "products.britcare.PUPPY_01.name",
-      "descriptionKey": "products.britcare.PUPPY_01.description",
-      "category": "dog",
-      "ageGroup": "puppy",
-      "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
-      "benefits": [
-        "products.britcare.PUPPY_01.benefit1",
-        "products.britcare.PUPPY_01.benefit2",
-        "products.britcare.PUPPY_01.benefit3"
-      ],
-      "forWhomKey": "products.britcare.PUPPY_01.forWhom",
-      "tags": ["puppy", "placeholder"],
-      "_status": "PLACEHOLDER - To be replaced with actual Brit Care products"
-    },
-    "BRITCARE_PUPPY_02": {
-      "code": "BRITCARE_PUPPY_02",
-      "series": "Puppy",
-      "name": "Brit Care Puppy Placeholder Product 2",
-      "nameKey": "products.britcare.PUPPY_02.name",
-      "descriptionKey": "products.britcare.PUPPY_02.description",
-      "category": "dog",
-      "ageGroup": "puppy",
-      "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
-      "benefits": [
-        "products.britcare.PUPPY_02.benefit1",
-        "products.britcare.PUPPY_02.benefit2",
-        "products.britcare.PUPPY_02.benefit3"
-      ],
-      "forWhomKey": "products.britcare.PUPPY_02.forWhom",
-      "tags": ["puppy", "placeholder"],
-      "_status": "PLACEHOLDER"
-    },
-    "BRITCARE_ADULT_01": {
-      "code": "BRITCARE_ADULT_01",
-      "series": "Adult",
-      "name": "Brit Care Adult Placeholder Product",
-      "nameKey": "products.britcare.ADULT_01.name",
-      "descriptionKey": "products.britcare.ADULT_01.description",
-      "category": "dog",
-      "ageGroup": "adult",
-      "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
-      "benefits": [
-        "products.britcare.ADULT_01.benefit1",
-        "products.britcare.ADULT_01.benefit2",
-        "products.britcare.ADULT_01.benefit3"
-      ],
-      "forWhomKey": "products.britcare.ADULT_01.forWhom",
-      "tags": ["adult", "placeholder"],
-      "_status": "PLACEHOLDER"
-    },
-    "BRITCARE_ADULT_02": {
-      "code": "BRITCARE_ADULT_02",
-      "series": "Adult",
-      "name": "Brit Care Adult Placeholder Product 2",
-      "nameKey": "products.britcare.ADULT_02.name",
-      "descriptionKey": "products.britcare.ADULT_02.description",
-      "category": "dog",
-      "ageGroup": "adult",
-      "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
-      "benefits": [
-        "products.britcare.ADULT_02.benefit1",
-        "products.britcare.ADULT_02.benefit2",
-        "products.britcare.ADULT_02.benefit3"
-      ],
-      "forWhomKey": "products.britcare.ADULT_02.forWhom",
-      "tags": ["adult", "placeholder"],
-      "_status": "PLACEHOLDER"
-    },
-    "BRITCARE_SENIOR_01": {
-      "code": "BRITCARE_SENIOR_01",
-      "series": "Senior",
-      "name": "Brit Care Senior Placeholder Product",
-      "nameKey": "products.britcare.SENIOR_01.name",
-      "descriptionKey": "products.britcare.SENIOR_01.description",
+    "BC_DOG_001": {
+      "code": "BC_DOG_001",
+      "series": "senior",
+      "name": "בריט קר senior lamb and rice",
+      "nameKey": "products.britcare.BC_DOG_001.name",
+      "descriptionKey": "products.britcare.BC_DOG_001.description",
       "category": "dog",
       "ageGroup": "senior",
       "sizeGroup": "all",
       "image": "/assets/pic/placeholder.png",
       "benefits": [
-        "products.britcare.SENIOR_01.benefit1",
-        "products.britcare.SENIOR_01.benefit2",
-        "products.britcare.SENIOR_01.benefit3"
+        "products.britcare.BC_DOG_001.benefit1",
+        "products.britcare.BC_DOG_001.benefit2",
+        "products.britcare.BC_DOG_001.benefit3"
       ],
-      "forWhomKey": "products.britcare.SENIOR_01.forWhom",
-      "tags": ["senior", "placeholder"],
-      "_status": "PLACEHOLDER"
-    },
-    "BRITCARE_KITTEN_01": {
-      "code": "BRITCARE_KITTEN_01",
-      "series": "Kitten",
-      "name": "Brit Care Kitten Placeholder Product",
-      "nameKey": "products.britcare.KITTEN_01.name",
-      "descriptionKey": "products.britcare.KITTEN_01.description",
-      "category": "cat",
-      "ageGroup": "kitten",
-      "image": "/assets/pic/placeholder.png",
-      "benefits": [
-        "products.britcare.KITTEN_01.benefit1",
-        "products.britcare.KITTEN_01.benefit2",
-        "products.britcare.KITTEN_01.benefit3"
+      "forWhomKey": "products.britcare.BC_DOG_001.forWhom",
+      "tags": [
+        "hypoallergenic",
+        "weight-management",
+        "joints",
+        "senior",
+        "all"
       ],
-      "forWhomKey": "products.britcare.KITTEN_01.forWhom",
-      "tags": ["kitten", "placeholder"],
-      "_status": "PLACEHOLDER"
+      "originalName": "senior lamb and rice",
+      "url": "https://brit-petfood.com/en/products/dogs/1074676-brit-care-dog-hypoallergenic-senior-lamb-and-rice"
     },
-    "BRITCARE_ADULTCAT_01": {
-      "code": "BRITCARE_ADULTCAT_01",
-      "series": "Adult Cat",
-      "name": "Brit Care Adult Cat Placeholder Product",
-      "nameKey": "products.britcare.ADULTCAT_01.name",
-      "descriptionKey": "products.britcare.ADULTCAT_01.description",
-      "category": "cat",
+    "BC_DOG_002": {
+      "code": "BC_DOG_002",
+      "series": "adult",
+      "name": "בריט קר Adult salmon & Potatoes",
+      "nameKey": "products.britcare.BC_DOG_002.name",
+      "descriptionKey": "products.britcare.BC_DOG_002.description",
+      "category": "dog",
       "ageGroup": "adult",
+      "sizeGroup": "medium",
       "image": "/assets/pic/placeholder.png",
       "benefits": [
-        "products.britcare.ADULTCAT_01.benefit1",
-        "products.britcare.ADULTCAT_01.benefit2",
-        "products.britcare.ADULTCAT_01.benefit3"
+        "products.britcare.BC_DOG_002.benefit1",
+        "products.britcare.BC_DOG_002.benefit2",
+        "products.britcare.BC_DOG_002.benefit3"
       ],
-      "forWhomKey": "products.britcare.ADULTCAT_01.forWhom",
-      "tags": ["adult-cat", "placeholder"],
-      "_status": "PLACEHOLDER"
+      "forWhomKey": "products.britcare.BC_DOG_002.forWhom",
+      "tags": [
+        "grain-free",
+        "skin-coat",
+        "adult",
+        "medium"
+      ],
+      "originalName": "Adult salmon & Potatoes",
+      "url": "https://brit-petfood.com/en/products/dogs/991612-brit-care-dog-grain-free-adult"
     },
-    "BRITCARE_ADULTCAT_02": {
-      "code": "BRITCARE_ADULTCAT_02",
-      "series": "Adult Cat",
-      "name": "Brit Care Adult Cat Placeholder Product 2",
-      "nameKey": "products.britcare.ADULTCAT_02.name",
-      "descriptionKey": "products.britcare.ADULTCAT_02.description",
-      "category": "cat",
+    "BC_DOG_003": {
+      "code": "BC_DOG_003",
+      "series": "adult",
+      "name": "בריט קר adult large breed Salmon & Potatoes",
+      "nameKey": "products.britcare.BC_DOG_003.name",
+      "descriptionKey": "products.britcare.BC_DOG_003.description",
+      "category": "dog",
       "ageGroup": "adult",
+      "sizeGroup": "large",
       "image": "/assets/pic/placeholder.png",
       "benefits": [
-        "products.britcare.ADULTCAT_02.benefit1",
-        "products.britcare.ADULTCAT_02.benefit2",
-        "products.britcare.ADULTCAT_02.benefit3"
+        "products.britcare.BC_DOG_003.benefit1",
+        "products.britcare.BC_DOG_003.benefit2",
+        "products.britcare.BC_DOG_003.benefit3"
       ],
-      "forWhomKey": "products.britcare.ADULTCAT_02.forWhom",
-      "tags": ["adult-cat", "placeholder"],
-      "_status": "PLACEHOLDER"
+      "forWhomKey": "products.britcare.BC_DOG_003.forWhom",
+      "tags": [
+        "grain-free",
+        "joints",
+        "skin-coat",
+        "mobility",
+        "adult",
+        "large"
+      ],
+      "originalName": "adult large breed Salmon & Potatoes",
+      "url": "https://brit-petfood.com/en/products/dogs/991620-brit-care-dog-grain-free-adult-large-breed"
     },
-    "BRITCARE_SENIORCAT_01": {
-      "code": "BRITCARE_SENIORCAT_01",
-      "series": "Senior Cat",
-      "name": "Brit Care Senior Cat Placeholder Product",
-      "nameKey": "products.britcare.SENIORCAT_01.name",
-      "descriptionKey": "products.britcare.SENIORCAT_01.description",
-      "category": "cat",
+    "BC_DOG_004": {
+      "code": "BC_DOG_004",
+      "series": "puppy",
+      "name": "בריט קר junior large breed Salmon & Potatoes",
+      "nameKey": "products.britcare.BC_DOG_004.name",
+      "descriptionKey": "products.britcare.BC_DOG_004.description",
+      "category": "dog",
+      "ageGroup": "puppy",
+      "sizeGroup": "large",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_DOG_004.benefit1",
+        "products.britcare.BC_DOG_004.benefit2",
+        "products.britcare.BC_DOG_004.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_DOG_004.forWhom",
+      "tags": [
+        "grain-free",
+        "joints",
+        "skin-coat",
+        "mobility",
+        "puppy",
+        "large"
+      ],
+      "originalName": "junior large breed Salmon & Potatoes",
+      "url": "https://brit-petfood.com/en/products/dogs/991616-brit-care-dog-grain-free-junior-large-breed"
+    },
+    "BC_DOG_005": {
+      "code": "BC_DOG_005",
+      "series": "puppy",
+      "name": "בריט קר puppy Salmon & Potatoes",
+      "nameKey": "products.britcare.BC_DOG_005.name",
+      "descriptionKey": "products.britcare.BC_DOG_005.description",
+      "category": "dog",
+      "ageGroup": "puppy",
+      "sizeGroup": "medium",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_DOG_005.benefit1",
+        "products.britcare.BC_DOG_005.benefit2",
+        "products.britcare.BC_DOG_005.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_DOG_005.forWhom",
+      "tags": [
+        "grain-free",
+        "weight-management",
+        "joints",
+        "skin-coat",
+        "mobility",
+        "puppy",
+        "medium"
+      ],
+      "originalName": "puppy Salmon & Potatoes",
+      "url": "https://brit-petfood.com/en/products/dogs/991608-brit-care-dog-grain-free-puppy"
+    },
+    "BC_DOG_006": {
+      "code": "BC_DOG_006",
+      "series": "senior",
+      "name": "בריט קר senior & light Salmon & Potatoes",
+      "nameKey": "products.britcare.BC_DOG_006.name",
+      "descriptionKey": "products.britcare.BC_DOG_006.description",
+      "category": "dog",
       "ageGroup": "senior",
+      "sizeGroup": "medium",
       "image": "/assets/pic/placeholder.png",
       "benefits": [
-        "products.britcare.SENIORCAT_01.benefit1",
-        "products.britcare.SENIORCAT_01.benefit2",
-        "products.britcare.SENIORCAT_01.benefit3"
+        "products.britcare.BC_DOG_006.benefit1",
+        "products.britcare.BC_DOG_006.benefit2",
+        "products.britcare.BC_DOG_006.benefit3"
       ],
-      "forWhomKey": "products.britcare.SENIORCAT_01.forWhom",
-      "tags": ["senior-cat", "placeholder"],
-      "_status": "PLACEHOLDER"
+      "forWhomKey": "products.britcare.BC_DOG_006.forWhom",
+      "tags": [
+        "grain-free",
+        "joints",
+        "skin-coat",
+        "mobility",
+        "senior",
+        "medium"
+      ],
+      "originalName": "senior & light Salmon & Potatoes",
+      "url": "https://brit-petfood.com/en/products/dogs/991624-brit-care-dog-grain-free-senior-and-light"
+    },
+    "BC_DOG_007": {
+      "code": "BC_DOG_007",
+      "series": "adult",
+      "name": "בריט קר adult large lamb and rice",
+      "nameKey": "products.britcare.BC_DOG_007.name",
+      "descriptionKey": "products.britcare.BC_DOG_007.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "large",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_DOG_007.benefit1",
+        "products.britcare.BC_DOG_007.benefit2",
+        "products.britcare.BC_DOG_007.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_DOG_007.forWhom",
+      "tags": [
+        "hypoallergenic",
+        "sensitive",
+        "adult",
+        "large"
+      ],
+      "originalName": "adult large lamb and rice",
+      "url": "https://brit-petfood.com/en/products/dogs/991644-brit-care-dog-hypoallergenic-adult-large-breed"
+    },
+    "BC_DOG_008": {
+      "code": "BC_DOG_008",
+      "series": "adult",
+      "name": "בריט קר adult lamb and rice",
+      "nameKey": "products.britcare.BC_DOG_008.name",
+      "descriptionKey": "products.britcare.BC_DOG_008.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "medium",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_DOG_008.benefit1",
+        "products.britcare.BC_DOG_008.benefit2",
+        "products.britcare.BC_DOG_008.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_DOG_008.forWhom",
+      "tags": [
+        "hypoallergenic",
+        "sensitive",
+        "adult",
+        "medium"
+      ],
+      "originalName": "adult lamb and rice",
+      "url": "https://brit-petfood.com/en/products/dogs/991636-brit-care-dog-hypoallergenic-adult-medium-breed"
+    },
+    "BC_DOG_009": {
+      "code": "BC_DOG_009",
+      "series": "adult",
+      "name": "בריט קר adult Salmon & Herring",
+      "nameKey": "products.britcare.BC_DOG_009.name",
+      "descriptionKey": "products.britcare.BC_DOG_009.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "medium",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_DOG_009.benefit1",
+        "products.britcare.BC_DOG_009.benefit2",
+        "products.britcare.BC_DOG_009.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_DOG_009.forWhom",
+      "tags": [
+        "hypoallergenic",
+        "skin-coat",
+        "stress",
+        "adult",
+        "medium"
+      ],
+      "originalName": "adult Salmon & Herring",
+      "url": "https://brit-petfood.com/en/products/dogs/991652-brit-care-dog-hypoallergenic-dog-show-champion"
+    },
+    "BC_DOG_010": {
+      "code": "BC_DOG_010",
+      "series": "puppy",
+      "name": "בריט קר junior large breed Lamb & Rice",
+      "nameKey": "products.britcare.BC_DOG_010.name",
+      "descriptionKey": "products.britcare.BC_DOG_010.description",
+      "category": "dog",
+      "ageGroup": "puppy",
+      "sizeGroup": "large",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_DOG_010.benefit1",
+        "products.britcare.BC_DOG_010.benefit2",
+        "products.britcare.BC_DOG_010.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_DOG_010.forWhom",
+      "tags": [
+        "hypoallergenic",
+        "sensitive",
+        "puppy",
+        "large"
+      ],
+      "originalName": "junior large breed Lamb & Rice",
+      "url": "https://brit-petfood.com/en/products/dogs/991640-brit-care-dog-hypoallergenic-junior-large-breed"
+    },
+    "BC_DOG_011": {
+      "code": "BC_DOG_011",
+      "series": "puppy",
+      "name": "בריט קר puppy Lamb & Rice",
+      "nameKey": "products.britcare.BC_DOG_011.name",
+      "descriptionKey": "products.britcare.BC_DOG_011.description",
+      "category": "dog",
+      "ageGroup": "puppy",
+      "sizeGroup": "medium",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_DOG_011.benefit1",
+        "products.britcare.BC_DOG_011.benefit2",
+        "products.britcare.BC_DOG_011.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_DOG_011.forWhom",
+      "tags": [
+        "hypoallergenic",
+        "sensitive",
+        "puppy",
+        "medium"
+      ],
+      "originalName": "puppy Lamb & Rice",
+      "url": "https://brit-petfood.com/en/products/dogs/991632-brit-care-dog-hypoallergenic-puppy"
+    },
+    "BC_DOG_012": {
+      "code": "BC_DOG_012",
+      "series": "adult",
+      "name": "בריט קר adult Rabbit & Rice",
+      "nameKey": "products.britcare.BC_DOG_012.name",
+      "descriptionKey": "products.britcare.BC_DOG_012.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "medium",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_DOG_012.benefit1",
+        "products.britcare.BC_DOG_012.benefit2",
+        "products.britcare.BC_DOG_012.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_DOG_012.forWhom",
+      "tags": [
+        "hypoallergenic",
+        "sensitive",
+        "joints",
+        "adult",
+        "medium"
+      ],
+      "originalName": "adult Rabbit & Rice",
+      "url": "https://brit-petfood.com/en/products/dogs/991648-brit-care-dog-hypoallergenic-weight-loss"
+    },
+    "BC_DOG_013": {
+      "code": "BC_DOG_013",
+      "series": "puppy",
+      "name": "בריט קר puppy mini lamp & pea",
+      "nameKey": "products.britcare.BC_DOG_013.name",
+      "descriptionKey": "products.britcare.BC_DOG_013.description",
+      "category": "dog",
+      "ageGroup": "puppy",
+      "sizeGroup": "mini",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_DOG_013.benefit1",
+        "products.britcare.BC_DOG_013.benefit2",
+        "products.britcare.BC_DOG_013.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_DOG_013.forWhom",
+      "tags": [
+        "grain-free",
+        "hypoallergenic",
+        "sensitive",
+        "puppy",
+        "mini"
+      ],
+      "originalName": "puppy mini lamp & pea",
+      "url": "https://brit-petfood.com/en/products/dogs/215106-brit-care-mini-grain-free-puppy"
+    },
+    "BC_DOG_014": {
+      "code": "BC_DOG_014",
+      "series": "adult",
+      "name": "בריט קר adult mini lamp& pea",
+      "nameKey": "products.britcare.BC_DOG_014.name",
+      "descriptionKey": "products.britcare.BC_DOG_014.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "mini",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_DOG_014.benefit1",
+        "products.britcare.BC_DOG_014.benefit2",
+        "products.britcare.BC_DOG_014.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_DOG_014.forWhom",
+      "tags": [
+        "grain-free",
+        "hypoallergenic",
+        "sensitive",
+        "adult",
+        "mini"
+      ],
+      "originalName": "adult mini lamp& pea",
+      "url": "https://brit-petfood.com/en/products/dogs/215108-brit-care-mini-grain-free-adult"
+    },
+    "BC_DOG_015": {
+      "code": "BC_DOG_015",
+      "series": "adult",
+      "name": "בריט קר adult mini salmon & herring & pea",
+      "nameKey": "products.britcare.BC_DOG_015.name",
+      "descriptionKey": "products.britcare.BC_DOG_015.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "mini",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_DOG_015.benefit1",
+        "products.britcare.BC_DOG_015.benefit2",
+        "products.britcare.BC_DOG_015.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_DOG_015.forWhom",
+      "tags": [
+        "grain-free",
+        "hypoallergenic",
+        "sensitive",
+        "skin-coat",
+        "adult",
+        "mini"
+      ],
+      "originalName": "adult mini salmon & herring & pea",
+      "url": "https://brit-petfood.com/en/products/dogs/215110-brit-care-mini-grain-free-hair-and-skin"
+    },
+    "BC_DOG_016": {
+      "code": "BC_DOG_016",
+      "series": "adult",
+      "name": "בריט קר adult lamb and rice",
+      "nameKey": "products.britcare.BC_DOG_016.name",
+      "descriptionKey": "products.britcare.BC_DOG_016.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "small",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_DOG_016.benefit1",
+        "products.britcare.BC_DOG_016.benefit2",
+        "products.britcare.BC_DOG_016.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_DOG_016.forWhom",
+      "tags": [
+        "grain-free",
+        "hypoallergenic",
+        "sensitive",
+        "adult",
+        "small"
+      ],
+      "originalName": "adult lamb and rice",
+      "url": "https://brit-petfood.com/en/products/dogs/1074658-brit-care-dog-hypoallergenic-adult-small-breed"
+    },
+    "BC_CAT_001": {
+      "code": "BC_CAT_001",
+      "series": "puppy",
+      "name": "בריט קר kitten chicken",
+      "nameKey": "products.britcare.BC_CAT_001.name",
+      "descriptionKey": "products.britcare.BC_CAT_001.description",
+      "category": "cat",
+      "ageGroup": "puppy",
+      "sizeGroup": "all",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_CAT_001.benefit1",
+        "products.britcare.BC_CAT_001.benefit2",
+        "products.britcare.BC_CAT_001.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_CAT_001.forWhom",
+      "tags": [
+        "grain-free",
+        "puppy",
+        "all"
+      ],
+      "originalName": "kitten chicken",
+      "url": "https://brit-petfood.com/en/products/cats/479577-brit-care-cat-grain-free-kitten-healthy-growth-and-development"
+    },
+    "BC_CAT_002": {
+      "code": "BC_CAT_002",
+      "series": "adult",
+      "name": "בריט קר adult indoor ",
+      "nameKey": "products.britcare.BC_CAT_002.name",
+      "descriptionKey": "products.britcare.BC_CAT_002.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "sizeGroup": "all",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_CAT_002.benefit1",
+        "products.britcare.BC_CAT_002.benefit2",
+        "products.britcare.BC_CAT_002.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_CAT_002.forWhom",
+      "tags": [
+        "grain-free",
+        "hairball",
+        "stress",
+        "adult",
+        "all"
+      ],
+      "originalName": "adult indoor ",
+      "url": "https://brit-petfood.com/en/products/cats/479578-brit-care-cat-grain-free-indoor-anti-stress"
+    },
+    "BC_CAT_003": {
+      "code": "BC_CAT_003",
+      "series": "adult",
+      "name": "בריט קר adult sterilized urinary",
+      "nameKey": "products.britcare.BC_CAT_003.name",
+      "descriptionKey": "products.britcare.BC_CAT_003.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "sizeGroup": "all",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_CAT_003.benefit1",
+        "products.britcare.BC_CAT_003.benefit2",
+        "products.britcare.BC_CAT_003.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_CAT_003.forWhom",
+      "tags": [
+        "grain-free",
+        "hypoallergenic",
+        "sterilized",
+        "urinary",
+        "adult",
+        "all"
+      ],
+      "originalName": "adult sterilized urinary",
+      "url": "https://brit-petfood.com/en/products/cats/479579-brit-care-cat-grain-free-sterilized-urinary-health"
+    },
+    "BC_CAT_004": {
+      "code": "BC_CAT_004",
+      "series": "adult",
+      "name": "בריט קר adult STERILIZED AND WEIGHT CONTROL",
+      "nameKey": "products.britcare.BC_CAT_004.name",
+      "descriptionKey": "products.britcare.BC_CAT_004.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "sizeGroup": "all",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_CAT_004.benefit1",
+        "products.britcare.BC_CAT_004.benefit2",
+        "products.britcare.BC_CAT_004.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_CAT_004.forWhom",
+      "tags": [
+        "grain-free",
+        "hypoallergenic",
+        "weight-management",
+        "sterilized",
+        "adult",
+        "all"
+      ],
+      "originalName": "adult STERILIZED AND WEIGHT CONTROL",
+      "url": "https://brit-petfood.com/en/products/cats/479580-brit-care-cat-grain-free-sterilized-and-weight-control"
+    },
+    "BC_CAT_005": {
+      "code": "BC_CAT_005",
+      "series": "adult",
+      "name": "בריט קר adult STERILIZED SENSITIVE",
+      "nameKey": "products.britcare.BC_CAT_005.name",
+      "descriptionKey": "products.britcare.BC_CAT_005.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "sizeGroup": "all",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_CAT_005.benefit1",
+        "products.britcare.BC_CAT_005.benefit2",
+        "products.britcare.BC_CAT_005.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_CAT_005.forWhom",
+      "tags": [
+        "grain-free",
+        "hypoallergenic",
+        "sensitive",
+        "sterilized",
+        "urinary",
+        "adult",
+        "all"
+      ],
+      "originalName": "adult STERILIZED SENSITIVE",
+      "url": "https://brit-petfood.com/en/products/cats/479581-brit-care-cat-grain-free-sterilized-sensitive"
+    },
+    "BC_CAT_006": {
+      "code": "BC_CAT_006",
+      "series": "adult",
+      "name": "בריט קר adult HAIRCARE HEALTHY AND SHINY COAT",
+      "nameKey": "products.britcare.BC_CAT_006.name",
+      "descriptionKey": "products.britcare.BC_CAT_006.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "sizeGroup": "all",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_CAT_006.benefit1",
+        "products.britcare.BC_CAT_006.benefit2",
+        "products.britcare.BC_CAT_006.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_CAT_006.forWhom",
+      "tags": [
+        "grain-free",
+        "hypoallergenic",
+        "weight-management",
+        "skin-coat",
+        "hairball",
+        "adult",
+        "all"
+      ],
+      "originalName": "adult HAIRCARE HEALTHY AND SHINY COAT",
+      "url": "https://brit-petfood.com/en/products/cats/479602-brit-care-cat-grain-free-haircare-healthy-and-shiny-coat"
+    },
+    "BC_CAT_007": {
+      "code": "BC_CAT_007",
+      "series": "adult",
+      "name": "בריט קר adult SENSITIVE HEALTHY DIGESTION AND DELICATE TASTE",
+      "nameKey": "products.britcare.BC_CAT_007.name",
+      "descriptionKey": "products.britcare.BC_CAT_007.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "sizeGroup": "all",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.britcare.BC_CAT_007.benefit1",
+        "products.britcare.BC_CAT_007.benefit2",
+        "products.britcare.BC_CAT_007.benefit3"
+      ],
+      "forWhomKey": "products.britcare.BC_CAT_007.forWhom",
+      "tags": [
+        "grain-free",
+        "hypoallergenic",
+        "sensitive",
+        "urinary",
+        "adult",
+        "all"
+      ],
+      "originalName": "adult SENSITIVE HEALTHY DIGESTION AND DELICATE TASTE",
+      "url": "https://brit-petfood.com/en/products/cats/479182-brit-care-cat-grain-free-sensitive-healthy-digestion-and-delicate-taste"
     }
   },
   "metadata": {
     "brand": "Brit Care",
-    "status": "PLACEHOLDER - To be filled with actual product data",
-    "lastUpdated": "2025-10-23",
-    "totalProducts": 9,
-    "notes": "This is a template structure. Research actual Brit Care product line and update with real products."
+    "status": "GENERATED FROM EXCEL",
+    "lastUpdated": "2025-10-26",
+    "totalProducts": 23,
+    "dogs": 16,
+    "cats": 7
   }
 }

@@ -1,202 +1,601 @@
 [
   {
     "page_number": 1,
-    "page_name": "page1",
-    "question": "questions.pet_type",
+    "page_name": "animalType",
+    "question": "?יש לך כלב או חתול",
     "buttons": [
       {
-        "text": "buttons.cat",
-        "target_page": 50
+        "text": "חתול",
+        "target_page": 100
       },
       {
-        "text": "buttons.dog",
+        "text": "כלב",
         "target_page": 2
       }
-    ],
-    "_comment": "PLACEHOLDER - This is a template structure for Brit Care. To be filled with actual product flow later."
+    ]
   },
   {
     "page_number": 2,
-    "page_name": "page2",
-    "question": "questions.dog_age",
+    "page_name": "dogAge",
+    "question": "?מה גילו של הכלב",
     "buttons": [
       {
-        "text": "buttons.puppy",
+        "text": "גור (עד שנה)",
         "target_page": 10
       },
       {
-        "text": "buttons.adult",
+        "text": "כלב צעיר (1-2 שנים)",
         "target_page": 20
       },
       {
-        "text": "buttons.senior",
+        "text": "בוגר (2-7 שנים)",
         "target_page": 30
+      },
+      {
+        "text": "מבוגר/סניור (7+ שנים)",
+        "target_page": 40
       }
-    ],
-    "_comment": "Dog age selection - adjust target pages based on actual Brit Care product line"
+    ]
   },
   {
     "page_number": 10,
     "page_name": "puppySize",
-    "question": "questions.dog_weight",
+    "question": "?מה גודל הכלב",
     "buttons": [
       {
-        "text": "buttons.small_toy",
-        "target_page": 100
+        "text": "מיני (עד 5 ק\"ג)",
+        "target_page": 11
       },
       {
-        "text": "buttons.medium",
-        "target_page": 100
+        "text": "קטן/בינוני (1-25 ק\"ג)",
+        "target_page": 12
       },
       {
-        "text": "buttons.large",
-        "target_page": 100
+        "text": "גדול (מעל 25 ק\"ג)",
+        "target_page": 13
       }
-    ],
-    "_comment": "Puppy size selection"
+    ]
+  },
+  {
+    "page_number": 11,
+    "page_name": "puppyMiniNeeds",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "רגיש/היפואלרגני",
+        "target_page": 501
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 501
+      }
+    ]
+  },
+  {
+    "page_number": 12,
+    "page_name": "puppySmallMediumNeeds",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "נטול דגנים",
+        "target_page": 502
+      },
+      {
+        "text": "רגיש/היפואלרגני",
+        "target_page": 503
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 502
+      }
+    ]
+  },
+  {
+    "page_number": 13,
+    "page_name": "puppyLargeNeeds",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "נטול דגנים",
+        "target_page": 504
+      },
+      {
+        "text": "רגיש/היפואלרגני",
+        "target_page": 505
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 504
+      }
+    ]
   },
   {
     "page_number": 20,
-    "page_name": "adultSize",
-    "question": "questions.dog_weight",
+    "page_name": "juniorSize",
+    "question": "?מה גודל הכלב",
     "buttons": [
       {
-        "text": "buttons.small_toy",
-        "target_page": 200
+        "text": "קטן/בינוני (1-25 ק\"ג)",
+        "target_page": 12
       },
       {
-        "text": "buttons.medium",
-        "target_page": 200
-      },
-      {
-        "text": "buttons.large",
-        "target_page": 200
+        "text": "גדול (מעל 25 ק\"ג)",
+        "target_page": 13
       }
-    ],
-    "_comment": "Adult size selection"
+    ]
   },
   {
     "page_number": 30,
-    "page_name": "seniorSize",
-    "question": "questions.dog_weight",
+    "page_name": "adultSize",
+    "question": "?מה גודל הכלב",
     "buttons": [
       {
-        "text": "buttons.small_toy",
-        "target_page": 300
+        "text": "מיני (עד 5 ק\"ג)",
+        "target_page": 31
       },
       {
-        "text": "buttons.medium",
-        "target_page": 300
+        "text": "קטן (עד 10 ק\"ג)",
+        "target_page": 32
       },
       {
-        "text": "buttons.large",
-        "target_page": 300
+        "text": "בינוני (10-25 ק\"ג)",
+        "target_page": 33
+      },
+      {
+        "text": "גדול (מעל 25 ק\"ג)",
+        "target_page": 34
       }
-    ],
-    "_comment": "Senior size selection"
+    ]
   },
   {
-    "page_number": 50,
-    "page_name": "catAge",
-    "question": "questions.cat_age",
+    "page_number": 31,
+    "page_name": "adultMiniNeeds",
+    "question": "?האם יש לכלב צרכים מיוחדים",
     "buttons": [
       {
-        "text": "buttons.kitten",
-        "target_page": 400
+        "text": "עור ופרווה",
+        "target_page": 506
       },
       {
-        "text": "buttons.adult_cat",
-        "target_page": 500
+        "text": "רגיש/היפואלרגני",
+        "target_page": 507
       },
       {
-        "text": "buttons.senior_cat",
-        "target_page": 600
+        "text": "אין צרכים מיוחדים",
+        "target_page": 507
       }
-    ],
-    "_comment": "Cat age selection"
+    ]
+  },
+  {
+    "page_number": 32,
+    "page_name": "adultSmallNeeds",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "רגיש/היפואלרגני",
+        "target_page": 508
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 508
+      }
+    ]
+  },
+  {
+    "page_number": 33,
+    "page_name": "adultMediumNeeds",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "נטול דגנים",
+        "target_page": 509
+      },
+      {
+        "text": "רגיש/היפואלרגני",
+        "target_page": 510
+      },
+      {
+        "text": "הופעות/תחרויות",
+        "target_page": 511
+      },
+      {
+        "text": "ניהול משקל",
+        "target_page": 512
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 509
+      }
+    ]
+  },
+  {
+    "page_number": 34,
+    "page_name": "adultLargeNeeds",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "נטול דגנים",
+        "target_page": 513
+      },
+      {
+        "text": "רגיש/היפואלרגני",
+        "target_page": 514
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 513
+      }
+    ]
+  },
+  {
+    "page_number": 40,
+    "page_name": "seniorSize",
+    "question": "?מה גודל הכלב",
+    "buttons": [
+      {
+        "text": "קטן/בינוני (1-25 ק\"ג)",
+        "target_page": 41
+      },
+      {
+        "text": "גדול (מעל 25 ק\"ג)",
+        "target_page": 42
+      }
+    ]
+  },
+  {
+    "page_number": 41,
+    "page_name": "seniorSmallMediumNeeds",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "נטול דגנים",
+        "target_page": 515
+      },
+      {
+        "text": "רגיש/היפואלרגני",
+        "target_page": 516
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 515
+      }
+    ]
+  },
+  {
+    "page_number": 42,
+    "page_name": "seniorLargeNeeds",
+    "question": "?האם יש לכלב צרכים מיוחדים",
+    "buttons": [
+      {
+        "text": "רגיש/היפואלרגני",
+        "target_page": 516
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 516
+      }
+    ]
   },
   {
     "page_number": 100,
-    "page_name": "puppyResult",
-    "question": "questions.result",
+    "page_name": "catAge",
+    "question": "?מה גיל החתול",
     "buttons": [
       {
-        "text": "BRITCARE_PUPPY_01",
-        "target_page": 100
+        "text": "גורה (עד שנה)",
+        "target_page": 110
       },
       {
-        "text": "BRITCARE_PUPPY_02",
-        "target_page": 100
-      }
-    ],
-    "_comment": "PLACEHOLDER - Replace with actual Brit Care puppy product codes"
-  },
-  {
-    "page_number": 200,
-    "page_name": "adultResult",
-    "question": "questions.result",
-    "buttons": [
-      {
-        "text": "BRITCARE_ADULT_01",
-        "target_page": 200
+        "text": "בוגר (1-7 שנים)",
+        "target_page": 120
       },
       {
-        "text": "BRITCARE_ADULT_02",
-        "target_page": 200
+        "text": "מבוגר/סניור (7+ שנים)",
+        "target_page": 120
       }
-    ],
-    "_comment": "PLACEHOLDER - Replace with actual Brit Care adult product codes"
+    ]
   },
   {
-    "page_number": 300,
-    "page_name": "seniorResult",
-    "question": "questions.result",
-    "buttons": [
-      {
-        "text": "BRITCARE_SENIOR_01",
-        "target_page": 300
-      }
-    ],
-    "_comment": "PLACEHOLDER - Replace with actual Brit Care senior product codes"
-  },
-  {
-    "page_number": 400,
+    "page_number": 110,
     "page_name": "kittenResult",
-    "question": "questions.result",
+    "question": "תוצאה",
     "buttons": [
       {
-        "text": "BRITCARE_KITTEN_01",
-        "target_page": 400
+        "text": "BC_CAT_001",
+        "target_page": 110
       }
-    ],
-    "_comment": "PLACEHOLDER - Replace with actual Brit Care kitten product codes"
+    ]
   },
   {
-    "page_number": 500,
-    "page_name": "adultCatResult",
-    "question": "questions.result",
+    "page_number": 120,
+    "page_name": "adultCatNeeds",
+    "question": "?האם יש לחתול צרכים מיוחדים",
     "buttons": [
       {
-        "text": "BRITCARE_ADULTCAT_01",
-        "target_page": 500
+        "text": "מסורס/מעוקר",
+        "target_page": 121
       },
       {
-        "text": "BRITCARE_ADULTCAT_02",
-        "target_page": 500
+        "text": "חיי בית (אינדור)",
+        "target_page": 601
+      },
+      {
+        "text": "עור ופרווה / כדורי שיער",
+        "target_page": 602
+      },
+      {
+        "text": "רגיש/עדין",
+        "target_page": 603
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 601
       }
-    ],
-    "_comment": "PLACEHOLDER - Replace with actual Brit Care adult cat product codes"
+    ]
   },
   {
-    "page_number": 600,
-    "page_name": "seniorCatResult",
-    "question": "questions.result",
+    "page_number": 121,
+    "page_name": "sterilizedCatNeeds",
+    "question": "?האם יש בעיות נוספות",
     "buttons": [
       {
-        "text": "BRITCARE_SENIORCAT_01",
-        "target_page": 600
+        "text": "דרכי שתן / כליות",
+        "target_page": 604
+      },
+      {
+        "text": "ניהול משקל",
+        "target_page": 605
+      },
+      {
+        "text": "רגישות קיבה",
+        "target_page": 606
+      },
+      {
+        "text": "אין בעיות נוספות",
+        "target_page": 604
       }
-    ],
-    "_comment": "PLACEHOLDER - Replace with actual Brit Care senior cat product codes"
+    ]
+  },
+  {
+    "page_number": 501,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_013",
+        "target_page": 501
+      }
+    ]
+  },
+  {
+    "page_number": 502,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_005",
+        "target_page": 502
+      }
+    ]
+  },
+  {
+    "page_number": 503,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_011",
+        "target_page": 503
+      }
+    ]
+  },
+  {
+    "page_number": 504,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_004",
+        "target_page": 504
+      }
+    ]
+  },
+  {
+    "page_number": 505,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_010",
+        "target_page": 505
+      }
+    ]
+  },
+  {
+    "page_number": 506,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_015",
+        "target_page": 506
+      }
+    ]
+  },
+  {
+    "page_number": 507,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_014",
+        "target_page": 507
+      }
+    ]
+  },
+  {
+    "page_number": 508,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_016",
+        "target_page": 508
+      }
+    ]
+  },
+  {
+    "page_number": 509,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_002",
+        "target_page": 509
+      }
+    ]
+  },
+  {
+    "page_number": 510,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_008",
+        "target_page": 510
+      }
+    ]
+  },
+  {
+    "page_number": 511,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_009",
+        "target_page": 511
+      }
+    ]
+  },
+  {
+    "page_number": 512,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_012",
+        "target_page": 512
+      }
+    ]
+  },
+  {
+    "page_number": 513,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_003",
+        "target_page": 513
+      }
+    ]
+  },
+  {
+    "page_number": 514,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_007",
+        "target_page": 514
+      }
+    ]
+  },
+  {
+    "page_number": 515,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_006",
+        "target_page": 515
+      }
+    ]
+  },
+  {
+    "page_number": 516,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_DOG_001",
+        "target_page": 516
+      }
+    ]
+  },
+  {
+    "page_number": 601,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_CAT_002",
+        "target_page": 601
+      }
+    ]
+  },
+  {
+    "page_number": 602,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_CAT_006",
+        "target_page": 602
+      }
+    ]
+  },
+  {
+    "page_number": 603,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_CAT_007",
+        "target_page": 603
+      }
+    ]
+  },
+  {
+    "page_number": 604,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_CAT_003",
+        "target_page": 604
+      }
+    ]
+  },
+  {
+    "page_number": 605,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_CAT_004",
+        "target_page": 605
+      }
+    ]
+  },
+  {
+    "page_number": 606,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "BC_CAT_005",
+        "target_page": 606
+      }
+    ]
   }
 ]
