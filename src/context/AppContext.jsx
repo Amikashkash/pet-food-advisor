@@ -36,16 +36,7 @@ export const AppProvider = ({ children }) => {
    */
   const [selectedBrand, setSelectedBrand] = useState(null);
 
-  /**
-   * Current language state
-   * Default: 'he' (Hebrew - primary language)
-   * Options: 'he', 'en', 'ru', 'ar'
-   */
-  const [currentLanguage, setCurrentLanguage] = useState(() => {
-    // Try to load saved language from localStorage
-    const savedLanguage = localStorage.getItem('foodAdvisorLanguage');
-    return savedLanguage || 'he';
-  });
+  // Language is fixed to Hebrew - no need for state
 
   /**
    * Navigation history for back button functionality
@@ -70,23 +61,13 @@ export const AppProvider = ({ children }) => {
   // ========================================
 
   /**
-   * Save language preference to localStorage when it changes
-   * This persists the user's language choice across sessions
+   * Set HTML to Hebrew RTL on mount
    */
   useEffect(() => {
-    localStorage.setItem('foodAdvisorLanguage', currentLanguage);
-
-    // Update HTML lang and dir attributes for proper RTL/LTR support
     const htmlElement = document.documentElement;
-    htmlElement.lang = currentLanguage;
-
-    // Hebrew and Arabic are RTL languages
-    if (currentLanguage === 'he' || currentLanguage === 'ar') {
-      htmlElement.dir = 'rtl';
-    } else {
-      htmlElement.dir = 'ltr';
-    }
-  }, [currentLanguage]);
+    htmlElement.lang = 'he';
+    htmlElement.dir = 'rtl';
+  }, []);
 
   // ========================================
   // NAVIGATION FUNCTIONS
@@ -183,15 +164,6 @@ export const AppProvider = ({ children }) => {
   // LANGUAGE FUNCTIONS
   // ========================================
 
-  /**
-   * Change the application language
-   *
-   * @param {string} lang - Language code ('he', 'en', 'ru', 'ar')
-   */
-  const changeLanguage = (lang) => {
-    setCurrentLanguage(lang);
-  };
-
   // ========================================
   // CONTEXT VALUE
   // ========================================
@@ -202,7 +174,6 @@ export const AppProvider = ({ children }) => {
   const value = {
     // State
     selectedBrand,
-    currentLanguage,
     currentPage,
     navigationHistory,
     isLoading,
@@ -217,9 +188,6 @@ export const AppProvider = ({ children }) => {
     // Brand selection
     selectBrand,
     setSelectedBrand,
-
-    // Language
-    changeLanguage,
 
     // Loading state
     setIsLoading,

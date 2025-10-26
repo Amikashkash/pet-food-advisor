@@ -4,11 +4,7 @@
  * Sets up internationalization (i18n) for the Food Advisor app
  * using i18next and react-i18next libraries.
  *
- * Supports 4 languages:
- * - Hebrew (he) - Primary, RTL
- * - English (en) - LTR
- * - Russian (ru) - LTR
- * - Arabic (ar) - RTL
+ * Hebrew only - RTL
  *
  * All translations are loaded from JSON files in assets/translations/
  */
@@ -16,12 +12,8 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-// Import translation JSON files
-// These contain all UI text, questions, product descriptions, etc.
+// Import Hebrew translation
 import heTranslations from '../assets/translations/he.json';
-import enTranslations from '../assets/translations/en.json';
-import ruTranslations from '../assets/translations/ru.json';
-import arTranslations from '../assets/translations/ar.json';
 
 // ========================================
 // I18N CONFIGURATION
@@ -39,15 +31,6 @@ i18n
     resources: {
       he: {
         translation: heTranslations
-      },
-      en: {
-        translation: enTranslations
-      },
-      ru: {
-        translation: ruTranslations
-      },
-      ar: {
-        translation: arTranslations
       }
     },
 
@@ -55,11 +38,11 @@ i18n
     // LANGUAGE SETTINGS
     // ========================================
 
-    // Default language (Hebrew - primary language)
+    // Default language (Hebrew only)
     lng: 'he',
 
-    // Fallback language if translation is missing
-    fallbackLng: 'en',
+    // Fallback language
+    fallbackLng: 'he',
 
     // Debug mode - set to true during development to see missing keys
     debug: false,
@@ -117,44 +100,12 @@ i18n
 // ========================================
 
 /**
- * Get the text direction for a language
+ * Get the text direction (always RTL for Hebrew)
  *
- * @param {string} language - Language code (he, en, ru, ar)
- * @returns {string} 'rtl' or 'ltr'
+ * @returns {string} 'rtl'
  */
-export const getDirection = (language) => {
-  const rtlLanguages = ['he', 'ar'];
-  return rtlLanguages.includes(language) ? 'rtl' : 'ltr';
-};
-
-/**
- * Get language display name
- *
- * @param {string} langCode - Language code
- * @returns {string} Language name in its own language
- */
-export const getLanguageName = (langCode) => {
-  const names = {
-    he: 'עברית',
-    en: 'English',
-    ru: 'Русский',
-    ar: 'العربية'
-  };
-  return names[langCode] || langCode;
-};
-
-/**
- * Get all available languages
- *
- * @returns {Array} Array of language objects with code and name
- */
-export const getAvailableLanguages = () => {
-  return [
-    { code: 'he', name: 'עברית', direction: 'rtl' },
-    { code: 'en', name: 'English', direction: 'ltr' },
-    { code: 'ru', name: 'Русский', direction: 'ltr' },
-    { code: 'ar', name: 'العربية', direction: 'rtl' }
-  ];
+export const getDirection = () => {
+  return 'rtl';
 };
 
 // Export configured i18n instance

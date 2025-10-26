@@ -17,7 +17,6 @@ import { AppProvider } from './context/AppContext'
 
 // Import components
 import BrandSelector from './components/BrandSelector/BrandSelector'
-import LanguageSelector from './components/LanguageSelector/LanguageSelector'
 import QuestionPage from './components/QuestionPage/QuestionPage'
 import ResultPage from './components/ResultPage/ResultPage'
 
@@ -32,9 +31,6 @@ function App() {
     <AppProvider>
       <Router>
         <div className="app">
-          {/* Language selector - visible on all pages */}
-          <LanguageSelector />
-
           {/* Main content area */}
           <main className="app-main">
             <Routes>
