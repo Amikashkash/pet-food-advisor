@@ -21,7 +21,12 @@
       "Bash(git commit:*)",
       "Bash(npm run build:*)",
       "Bash(npm run optimize-images:*)",
-      "Bash(git reset:*)"
+      "Bash(git reset:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(node read-excel.cjs:*)",
+      "Bash(node generate-britcare-json.cjs:*)",
+      "Bash(node generate-translations.cjs:*)"
     ],
     "deny": [],
     "ask": []

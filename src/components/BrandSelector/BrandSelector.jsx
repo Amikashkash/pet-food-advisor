@@ -76,9 +76,13 @@ const BrandSelector = () => {
       id: 'britcare',
       name: 'Brit Care',
       description: t('brandSelector.britcare'),
-      available: false,
+      available: true,
       color: '#ef4444', // Red
-      features: []
+      features: [
+        'נטול דגנים',
+        'היפואלרגני',
+        'פתרונות ממוקדים'
+      ]
     },
     {
       id: 'carnilove',
