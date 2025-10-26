@@ -9,7 +9,7 @@
       "category": "dog",
       "ageGroup": "senior",
       "sizeGroup": "all",
-      "image": "/assets/pic/senior-lamb.png",
+      "image": "/assets/pic/adult-senior-lamb.png",
       "benefits": [
         "products.britcare.BC_DOG_001.benefit1",
         "products.britcare.BC_DOG_001.benefit2",
@@ -142,7 +142,7 @@
       "category": "dog",
       "ageGroup": "senior",
       "sizeGroup": "medium",
-      "image": "/assets/pic/senior-light-salmon.png",
+      "image": "/assets/pic/senior.png",
       "benefits": [
         "products.britcare.BC_DOG_006.benefit1",
         "products.britcare.BC_DOG_006.benefit2",
@@ -426,7 +426,7 @@
       "category": "cat",
       "ageGroup": "puppy",
       "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/champion-salmon-herring.png",
       "benefits": [
         "products.britcare.BC_CAT_001.benefit1",
         "products.britcare.BC_CAT_001.benefit2",
@@ -450,7 +450,7 @@
       "category": "cat",
       "ageGroup": "adult",
       "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/champion-salmon-herring.png",
       "benefits": [
         "products.britcare.BC_CAT_002.benefit1",
         "products.britcare.BC_CAT_002.benefit2",
@@ -476,7 +476,7 @@
       "category": "cat",
       "ageGroup": "adult",
       "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/champion-salmon-herring.png",
       "benefits": [
         "products.britcare.BC_CAT_003.benefit1",
         "products.britcare.BC_CAT_003.benefit2",
@@ -503,7 +503,7 @@
       "category": "cat",
       "ageGroup": "adult",
       "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/champion-salmon-herring.png",
       "benefits": [
         "products.britcare.BC_CAT_004.benefit1",
         "products.britcare.BC_CAT_004.benefit2",
@@ -530,7 +530,7 @@
       "category": "cat",
       "ageGroup": "adult",
       "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/champion-salmon-herring.png",
       "benefits": [
         "products.britcare.BC_CAT_005.benefit1",
         "products.britcare.BC_CAT_005.benefit2",
@@ -558,7 +558,7 @@
       "category": "cat",
       "ageGroup": "adult",
       "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/champion-salmon-herring.png",
       "benefits": [
         "products.britcare.BC_CAT_006.benefit1",
         "products.britcare.BC_CAT_006.benefit2",
@@ -586,7 +586,7 @@
       "category": "cat",
       "ageGroup": "adult",
       "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/champion-salmon-herring.png",
       "benefits": [
         "products.britcare.BC_CAT_007.benefit1",
         "products.britcare.BC_CAT_007.benefit2",
