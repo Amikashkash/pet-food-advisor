@@ -114,10 +114,7 @@
     "page_name": "juniorSize",
     "question": "?מה גודל הכלב",
     "buttons": [
-      {
-        "text": "קטן/בינוני (1-25 ק\"ג)",
-        "target_page": 12
-      },
+      
       {
         "text": "גדול (מעל 25 ק\"ג)",
         "target_page": 13
