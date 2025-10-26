@@ -129,9 +129,22 @@
   transition: all var(--transition-normal);
 }
 
+.brandLogoImage {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  transition: all var(--transition-normal);
+}
+
 .brandCard:not(.brandCardDisabled):hover .brandLogoCircle {
   transform: scale(1.1);
   box-shadow: var(--shadow-primary-lg);
+}
+
+.brandCard:not(.brandCardDisabled):hover .brandLogoImage {
+  transform: scale(1.1);
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4));
 }
 
 /* Brand name */

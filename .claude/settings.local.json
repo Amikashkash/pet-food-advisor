@@ -26,7 +26,9 @@
       "Bash(python3:*)",
       "Bash(node read-excel.cjs:*)",
       "Bash(node generate-britcare-json.cjs:*)",
-      "Bash(node generate-translations.cjs:*)"
+      "Bash(node generate-translations.cjs:*)",
+      "Bash(node optimize-britcare-images.cjs:*)",
+      "Bash(node create-app-icon.cjs:*)"
     ],
     "deny": [],
     "ask": []

@@ -66,6 +66,7 @@ const BrandSelector = () => {
       description: t('brandSelector.nutram'),
       available: true,
       color: '#8b5cf6', // Purple
+      logo: '/assets/pic/nutram_logo.png',
       features: [
         t('brandSelector.features.total'),
         t('brandSelector.features.sound'),
@@ -78,6 +79,7 @@ const BrandSelector = () => {
       description: t('brandSelector.britcare'),
       available: true,
       color: '#ef4444', // Red
+      logo: '/assets/pic/logo-brit.png',
       features: [
         'נטול דגנים',
         'היפואלרגני',
@@ -90,6 +92,7 @@ const BrandSelector = () => {
       description: t('brandSelector.carnilove'),
       available: false,
       color: '#f59e0b', // Orange
+      logo: null,
       features: []
     }
   ];
@@ -125,12 +128,20 @@ const BrandSelector = () => {
           >
             {/* Brand logo area */}
             <div className={styles.brandLogo}>
-              <div
-                className={styles.brandLogoCircle}
-                style={{ backgroundColor: brand.color }}
-              >
-                {brand.name[0]}
-              </div>
+              {brand.logo ? (
+                <img
+                  src={brand.logo}
+                  alt={`${brand.name} logo`}
+                  className={styles.brandLogoImage}
+                />
+              ) : (
+                <div
+                  className={styles.brandLogoCircle}
+                  style={{ backgroundColor: brand.color }}
+                >
+                  {brand.name[0]}
+                </div>
+              )}
             </div>
 
             {/* Brand name */}
