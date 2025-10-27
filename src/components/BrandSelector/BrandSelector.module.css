@@ -112,7 +112,7 @@
 
 /* Brand logo */
 .brandLogo {
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-xs);
 }
 
 .brandLogoCircle {
