@@ -17,14 +17,14 @@
   {
     "page_number": 2,
     "page_name": "dogAge",
-    "question": "?מה גילו של הכלב",
+    "question": "? מה גילו של הכלב",
     "buttons": [
       {
         "text": "גור (עד שנה)",
         "target_page": 10
       },
       {
-        "text": "כלב צעיר (1-2 שנים)",
+        "text": "כלב צעיר - ג'וניור עד גיל שנתיים ",
         "target_page": 20
       },
       {
