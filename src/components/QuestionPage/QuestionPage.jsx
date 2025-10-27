@@ -6,7 +6,7 @@
  * Handles navigation through the flow
  */
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAppContext } from '../../context/AppContext';
@@ -33,12 +33,18 @@ const QuestionPage = () => {
   // Navigation hook
   const {
     currentPageData,
+    currentPage,
     isResult,
     canGoBack,
     goBack,
     handleButtonClick,
     progress
   } = useNavigation();
+
+  // Animation state
+  const [isTransitioning, setIsTransitioning] = useState(false);
+  const [transitionDirection, setTransitionDirection] = useState('forward');
+  const [prevPage, setPrevPage] = useState(currentPage);
 
   // ========================================
   // EFFECTS
@@ -61,6 +67,28 @@ const QuestionPage = () => {
       navigate('/result');
     }
   }, [isResult, navigate]);
+
+  /**
+   * Trigger page transition animation when page changes
+   */
+  useEffect(() => {
+    if (currentPage !== prevPage) {
+      // Determine direction: forward if page number increased, backward if decreased
+      const direction = currentPage > prevPage ? 'forward' : 'backward';
+      setTransitionDirection(direction);
+
+      // Trigger exit animation
+      setIsTransitioning(true);
+
+      // After animation completes, update page and trigger enter animation
+      const timer = setTimeout(() => {
+        setPrevPage(currentPage);
+        setIsTransitioning(false);
+      }, 300); // Match this with CSS animation duration
+
+      return () => clearTimeout(timer);
+    }
+  }, [currentPage, prevPage]);
 
   // ========================================
   // HANDLERS
@@ -179,7 +207,13 @@ const QuestionPage = () => {
       )}
 
       {/* Question card */}
-      <div className={styles.questionCard}>
+      <div
+        className={`${styles.questionCard} ${
+          isTransitioning
+            ? (transitionDirection === 'forward' ? styles.slideOutLeft : styles.slideOutRight)
+            : (transitionDirection === 'forward' ? styles.slideInRight : styles.slideInLeft)
+        }`}
+      >
         {/* Brand badge */}
         <div className={styles.brandBadge}>
           {selectedBrand}

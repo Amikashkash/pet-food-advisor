@@ -105,7 +105,23 @@
   border-radius: var(--radius-2xl);
   padding: var(--spacing-2xl);
   box-shadow: var(--shadow-xl);
-  animation: slideUp var(--transition-normal);
+}
+
+/* Page transition animations */
+.slideInRight {
+  animation: slideInRight 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.slideInLeft {
+  animation: slideInLeft 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.slideOutLeft {
+  animation: slideOutLeft 0.3s cubic-bezier(0.4, 0, 0.6, 1) forwards;
+}
+
+.slideOutRight {
+  animation: slideOutRight 0.3s cubic-bezier(0.4, 0, 0.6, 1) forwards;
 }
 
 /* Brand badge */
@@ -311,5 +327,57 @@
 
   .questionCard {
     padding: var(--spacing-lg);
+  }
+}
+
+/* ========================================
+   KEYFRAME ANIMATIONS
+   ======================================== */
+
+/* Slide in from right (forward navigation) */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Slide in from left (backward navigation) */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Slide out to left (forward navigation exit) */
+@keyframes slideOutLeft {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+}
+
+/* Slide out to right (backward navigation exit) */
+@keyframes slideOutRight {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(50px);
   }
 }
