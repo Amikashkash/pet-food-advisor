@@ -90,10 +90,14 @@ const BrandSelector = () => {
       id: 'carnilove',
       name: 'Carnilove',
       description: t('brandSelector.carnilove'),
-      available: false,
+      available: true,
       color: '#f59e0b', // Orange
       logo: null,
-      features: []
+      features: [
+        'נטול דגנים 100%',
+        'עתיר בשר',
+        'מרכיבים טבעיים'
+      ]
     }
   ];
 

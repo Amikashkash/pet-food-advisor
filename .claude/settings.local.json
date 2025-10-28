@@ -28,7 +28,9 @@
       "Bash(node generate-britcare-json.cjs:*)",
       "Bash(node generate-translations.cjs:*)",
       "Bash(node optimize-britcare-images.cjs:*)",
-      "Bash(node create-app-icon.cjs:*)"
+      "Bash(node create-app-icon.cjs:*)",
+      "Bash(node generate-carnilove.cjs:*)",
+      "Bash(node generate-carnilove-translations.cjs:*)"
     ],
     "deny": [],
     "ask": []

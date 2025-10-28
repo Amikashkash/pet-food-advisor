@@ -1,202 +1,241 @@
 [
   {
     "page_number": 1,
-    "page_name": "page1",
-    "question": "questions.pet_type",
+    "page_name": "animalType",
+    "question": "?יש לך כלב או חתול",
     "buttons": [
       {
-        "text": "buttons.cat",
-        "target_page": 50
+        "text": "חתול",
+        "target_page": 100
       },
       {
-        "text": "buttons.dog",
+        "text": "כלב",
         "target_page": 2
       }
-    ],
-    "_comment": "PLACEHOLDER - This is a template structure for Carnilove. To be filled with actual product flow later."
+    ]
   },
   {
     "page_number": 2,
-    "page_name": "page2",
-    "question": "questions.dog_age",
+    "page_name": "dogAge",
+    "question": "?מה גילו של הכלב",
     "buttons": [
       {
-        "text": "buttons.puppy",
+        "text": "גור (עד שנה)",
         "target_page": 10
       },
       {
-        "text": "buttons.adult",
+        "text": "בוגר (1-7 שנים)",
         "target_page": 20
       },
       {
-        "text": "buttons.senior",
+        "text": "מבוגר/סניור (7+ שנים)",
         "target_page": 30
       }
-    ],
-    "_comment": "Dog age selection - Carnilove is known for grain-free, wild meat recipes. Adjust flow based on their product line."
+    ]
   },
   {
     "page_number": 10,
     "page_name": "puppySize",
-    "question": "questions.dog_weight",
+    "question": "?מה גודל הכלב",
     "buttons": [
       {
-        "text": "buttons.small_toy",
-        "target_page": 100
+        "text": "קטן (עד 10 ק\"ג)",
+        "target_page": 500
       },
       {
-        "text": "buttons.medium",
-        "target_page": 100
+        "text": "בינוני (10-25 ק\"ג)",
+        "target_page": 500
       },
       {
-        "text": "buttons.large",
-        "target_page": 100
+        "text": "גדול (מעל 25 ק\"ג)",
+        "target_page": 501
       }
-    ],
-    "_comment": "Puppy size selection"
+    ]
   },
   {
     "page_number": 20,
     "page_name": "adultSize",
-    "question": "questions.dog_weight",
+    "question": "?מה גודל הכלב",
     "buttons": [
       {
-        "text": "buttons.small_toy",
-        "target_page": 200
+        "text": "קטן (עד 10 ק\"ג)",
+        "target_page": 502
       },
       {
-        "text": "buttons.medium",
-        "target_page": 200
+        "text": "בינוני (10-25 ק\"ג)",
+        "target_page": 502
       },
       {
-        "text": "buttons.large",
-        "target_page": 200
+        "text": "גדול (מעל 25 ק\"ג)",
+        "target_page": 503
       }
-    ],
-    "_comment": "Adult size selection"
+    ]
   },
   {
     "page_number": 30,
     "page_name": "seniorSize",
-    "question": "questions.dog_weight",
+    "question": "?מה גודל הכלב",
     "buttons": [
       {
-        "text": "buttons.small_toy",
-        "target_page": 300
+        "text": "קטן/בינוני",
+        "target_page": 504
       },
       {
-        "text": "buttons.medium",
-        "target_page": 300
-      },
-      {
-        "text": "buttons.large",
-        "target_page": 300
+        "text": "גדול",
+        "target_page": 504
       }
-    ],
-    "_comment": "Senior size selection"
-  },
-  {
-    "page_number": 50,
-    "page_name": "catAge",
-    "question": "questions.cat_age",
-    "buttons": [
-      {
-        "text": "buttons.kitten",
-        "target_page": 400
-      },
-      {
-        "text": "buttons.adult_cat",
-        "target_page": 500
-      },
-      {
-        "text": "buttons.senior_cat",
-        "target_page": 600
-      }
-    ],
-    "_comment": "Cat age selection"
+    ]
   },
   {
     "page_number": 100,
-    "page_name": "puppyResult",
-    "question": "questions.result",
+    "page_name": "catAge",
+    "question": "?מה גיל החתול",
     "buttons": [
       {
-        "text": "CARNILOVE_PUPPY_01",
-        "target_page": 100
+        "text": "גורה (עד שנה)",
+        "target_page": 600
       },
       {
-        "text": "CARNILOVE_PUPPY_02",
-        "target_page": 100
-      }
-    ],
-    "_comment": "PLACEHOLDER - Replace with actual Carnilove puppy product codes (e.g., Salmon & Turkey, Lamb & Wild Boar)"
-  },
-  {
-    "page_number": 200,
-    "page_name": "adultResult",
-    "question": "questions.result",
-    "buttons": [
-      {
-        "text": "CARNILOVE_ADULT_01",
-        "target_page": 200
+        "text": "בוגר (1-7 שנים)",
+        "target_page": 110
       },
       {
-        "text": "CARNILOVE_ADULT_02",
-        "target_page": 200
+        "text": "מבוגר/סניור (7+ שנים)",
+        "target_page": 110
       }
-    ],
-    "_comment": "PLACEHOLDER - Replace with actual Carnilove adult product codes (e.g., Reindeer, Duck & Pheasant)"
+    ]
   },
   {
-    "page_number": 300,
-    "page_name": "seniorResult",
-    "question": "questions.result",
+    "page_number": 110,
+    "page_name": "adultCatNeeds",
+    "question": "?האם יש לחתול צרכים מיוחדים",
     "buttons": [
       {
-        "text": "CARNILOVE_SENIOR_01",
-        "target_page": 300
-      }
-    ],
-    "_comment": "PLACEHOLDER - Replace with actual Carnilove senior product codes"
-  },
-  {
-    "page_number": 400,
-    "page_name": "kittenResult",
-    "question": "questions.result",
-    "buttons": [
+        "text": "מסורס/מעוקר",
+        "target_page": 601
+      },
       {
-        "text": "CARNILOVE_KITTEN_01",
-        "target_page": 400
+        "text": "חיי בית (אינדור)",
+        "target_page": 602
+      },
+      {
+        "text": "חיי חוץ",
+        "target_page": 603
+      },
+      {
+        "text": "אין צרכים מיוחדים",
+        "target_page": 604
       }
-    ],
-    "_comment": "PLACEHOLDER - Replace with actual Carnilove kitten product codes"
+    ]
   },
   {
     "page_number": 500,
-    "page_name": "adultCatResult",
-    "question": "questions.result",
+    "page_name": "result",
+    "question": "תוצאה",
     "buttons": [
       {
-        "text": "CARNILOVE_ADULTCAT_01",
-        "target_page": 500
-      },
-      {
-        "text": "CARNILOVE_ADULTCAT_02",
+        "text": "CL_DOG_001",
         "target_page": 500
       }
-    ],
-    "_comment": "PLACEHOLDER - Replace with actual Carnilove adult cat product codes (e.g., Duck & Turkey, Salmon & Turkey)"
+    ]
+  },
+  {
+    "page_number": 501,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "CL_DOG_002",
+        "target_page": 501
+      }
+    ]
+  },
+  {
+    "page_number": 502,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "CL_DOG_003",
+        "target_page": 502
+      }
+    ]
+  },
+  {
+    "page_number": 503,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "CL_DOG_004",
+        "target_page": 503
+      }
+    ]
+  },
+  {
+    "page_number": 504,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "CL_DOG_005",
+        "target_page": 504
+      }
+    ]
   },
   {
     "page_number": 600,
-    "page_name": "seniorCatResult",
-    "question": "questions.result",
+    "page_name": "result",
+    "question": "תוצאה",
     "buttons": [
       {
-        "text": "CARNILOVE_SENIORCAT_01",
+        "text": "CL_CAT_001",
         "target_page": 600
       }
-    ],
-    "_comment": "PLACEHOLDER - Replace with actual Carnilove senior cat product codes"
+    ]
+  },
+  {
+    "page_number": 601,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "CL_CAT_002",
+        "target_page": 601
+      }
+    ]
+  },
+  {
+    "page_number": 602,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "CL_CAT_003",
+        "target_page": 602
+      }
+    ]
+  },
+  {
+    "page_number": 603,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "CL_CAT_004",
+        "target_page": 603
+      }
+    ]
+  },
+  {
+    "page_number": 604,
+    "page_name": "result",
+    "question": "תוצאה",
+    "buttons": [
+      {
+        "text": "CL_CAT_005",
+        "target_page": 604
+      }
+    ]
   }
 ]

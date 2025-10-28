@@ -1,179 +1,235 @@
 {
   "products": {
-    "CARNILOVE_PUPPY_01": {
-      "code": "CARNILOVE_PUPPY_01",
-      "series": "Puppy",
-      "name": "Carnilove Puppy Placeholder Product",
-      "nameKey": "products.carnilove.PUPPY_01.name",
-      "descriptionKey": "products.carnilove.PUPPY_01.description",
+    "CL_DOG_001": {
+      "code": "CL_DOG_001",
+      "series": "adult",
+      "name": "קרנילאב Lamb & Wild Boar",
+      "nameKey": "products.carnilove.CL_DOG_001.name",
+      "descriptionKey": "products.carnilove.CL_DOG_001.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "medium",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.carnilove.CL_DOG_001.benefit1",
+        "products.carnilove.CL_DOG_001.benefit2",
+        "products.carnilove.CL_DOG_001.benefit3"
+      ],
+      "forWhomKey": "products.carnilove.CL_DOG_001.forWhom",
+      "tags": [
+        "grain-free",
+        "adult",
+        "medium"
+      ],
+      "originalName": "Lamb & Wild Boar",
+      "url": "https://carnilove.com/en/products/category/product-type/91-lamb-and-wild-boar-for-adult-dogs"
+    },
+    "CL_DOG_002": {
+      "code": "CL_DOG_002",
+      "series": "puppy",
+      "name": "קרנילאב puppy salmon & turkey",
+      "nameKey": "products.carnilove.CL_DOG_002.name",
+      "descriptionKey": "products.carnilove.CL_DOG_002.description",
       "category": "dog",
       "ageGroup": "puppy",
-      "sizeGroup": "all",
+      "sizeGroup": "large",
       "image": "/assets/pic/placeholder.png",
       "benefits": [
-        "products.carnilove.PUPPY_01.benefit1",
-        "products.carnilove.PUPPY_01.benefit2",
-        "products.carnilove.PUPPY_01.benefit3"
+        "products.carnilove.CL_DOG_002.benefit1",
+        "products.carnilove.CL_DOG_002.benefit2",
+        "products.carnilove.CL_DOG_002.benefit3"
       ],
-      "forWhomKey": "products.carnilove.PUPPY_01.forWhom",
-      "tags": ["puppy", "grain-free", "wild-meat", "placeholder"],
-      "_status": "PLACEHOLDER - To be replaced with actual Carnilove products (e.g., Salmon & Turkey Puppy)"
+      "forWhomKey": "products.carnilove.CL_DOG_002.forWhom",
+      "tags": [
+        "grain-free",
+        "skin-coat",
+        "puppy",
+        "large"
+      ],
+      "originalName": "puppy salmon & turkey",
+      "url": " https://carnilove.com/en/products/dogs/dry/90-salmon-and-turkey-for-large-breed-puppy"
     },
-    "CARNILOVE_PUPPY_02": {
-      "code": "CARNILOVE_PUPPY_02",
-      "series": "Puppy",
-      "name": "Carnilove Puppy Placeholder Product 2",
-      "nameKey": "products.carnilove.PUPPY_02.name",
-      "descriptionKey": "products.carnilove.PUPPY_02.description",
+    "CL_DOG_003": {
+      "code": "CL_DOG_003",
+      "series": "adult",
+      "name": "קרנילאב adult Salmon & Turkey",
+      "nameKey": "products.carnilove.CL_DOG_003.name",
+      "descriptionKey": "products.carnilove.CL_DOG_003.description",
       "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "large",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.carnilove.CL_DOG_003.benefit1",
+        "products.carnilove.CL_DOG_003.benefit2",
+        "products.carnilove.CL_DOG_003.benefit3"
+      ],
+      "forWhomKey": "products.carnilove.CL_DOG_003.forWhom",
+      "tags": [
+        "grain-free",
+        "skin-coat",
+        "adult",
+        "large"
+      ],
+      "originalName": "adult Salmon & Turkey",
+      "url": "https://carnilove.com/en/products/dogs/dry/95-salmon-and-turkey"
+    },
+    "CL_DOG_004": {
+      "code": "CL_DOG_004",
+      "series": "adult",
+      "name": "קרנילאב adult Salmon",
+      "nameKey": "products.carnilove.CL_DOG_004.name",
+      "descriptionKey": "products.carnilove.CL_DOG_004.description",
+      "category": "dog",
+      "ageGroup": "adult",
+      "sizeGroup": "medium",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.carnilove.CL_DOG_004.benefit1",
+        "products.carnilove.CL_DOG_004.benefit2",
+        "products.carnilove.CL_DOG_004.benefit3"
+      ],
+      "forWhomKey": "products.carnilove.CL_DOG_004.forWhom",
+      "tags": [
+        "grain-free",
+        "skin-coat",
+        "adult",
+        "medium"
+      ],
+      "originalName": "adult Salmon",
+      "url": "https://carnilove.com/en/products/dogs/dry/92-salmon-for-adult-dogs"
+    },
+    "CL_CAT_001": {
+      "code": "CL_CAT_001",
+      "series": "adult",
+      "name": "קרנילאב duck & turkey",
+      "nameKey": "products.carnilove.CL_CAT_001.name",
+      "descriptionKey": "products.carnilove.CL_CAT_001.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "sizeGroup": "large",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.carnilove.CL_CAT_001.benefit1",
+        "products.carnilove.CL_CAT_001.benefit2",
+        "products.carnilove.CL_CAT_001.benefit3"
+      ],
+      "forWhomKey": "products.carnilove.CL_CAT_001.forWhom",
+      "tags": [
+        "grain-free",
+        "joints",
+        "adult",
+        "large"
+      ],
+      "originalName": "duck & turkey",
+      "url": "https://carnilove.com/en/products/category/product-type/157-duck-and-turkey"
+    },
+    "CL_CAT_002": {
+      "code": "CL_CAT_002",
+      "series": "adult",
+      "name": "קרנילאב lamb & wild boar",
+      "nameKey": "products.carnilove.CL_CAT_002.name",
+      "descriptionKey": "products.carnilove.CL_CAT_002.description",
+      "category": "cat",
+      "ageGroup": "adult",
+      "sizeGroup": "medium",
+      "image": "/assets/pic/placeholder.png",
+      "benefits": [
+        "products.carnilove.CL_CAT_002.benefit1",
+        "products.carnilove.CL_CAT_002.benefit2",
+        "products.carnilove.CL_CAT_002.benefit3"
+      ],
+      "forWhomKey": "products.carnilove.CL_CAT_002.forWhom",
+      "tags": [
+        "grain-free",
+        "sterilized",
+        "adult",
+        "medium"
+      ],
+      "originalName": "lamb & wild boar",
+      "url": "https://carnilove.com/en/products/cats/dry/158-lamb-and-wild-boar"
+    },
+    "CL_CAT_003": {
+      "code": "CL_CAT_003",
+      "series": "puppy",
+      "name": "קרנילאב salmon&turkey",
+      "nameKey": "products.carnilove.CL_CAT_003.name",
+      "descriptionKey": "products.carnilove.CL_CAT_003.description",
+      "category": "cat",
       "ageGroup": "puppy",
-      "sizeGroup": "all",
+      "sizeGroup": "medium",
       "image": "/assets/pic/placeholder.png",
       "benefits": [
-        "products.carnilove.PUPPY_02.benefit1",
-        "products.carnilove.PUPPY_02.benefit2",
-        "products.carnilove.PUPPY_02.benefit3"
+        "products.carnilove.CL_CAT_003.benefit1",
+        "products.carnilove.CL_CAT_003.benefit2",
+        "products.carnilove.CL_CAT_003.benefit3"
       ],
-      "forWhomKey": "products.carnilove.PUPPY_02.forWhom",
-      "tags": ["puppy", "grain-free", "wild-meat", "placeholder"],
-      "_status": "PLACEHOLDER"
-    },
-    "CARNILOVE_ADULT_01": {
-      "code": "CARNILOVE_ADULT_01",
-      "series": "Adult",
-      "name": "Carnilove Adult Placeholder Product",
-      "nameKey": "products.carnilove.ADULT_01.name",
-      "descriptionKey": "products.carnilove.ADULT_01.description",
-      "category": "dog",
-      "ageGroup": "adult",
-      "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
-      "benefits": [
-        "products.carnilove.ADULT_01.benefit1",
-        "products.carnilove.ADULT_01.benefit2",
-        "products.carnilove.ADULT_01.benefit3"
+      "forWhomKey": "products.carnilove.CL_CAT_003.forWhom",
+      "tags": [
+        "grain-free",
+        "puppy",
+        "medium"
       ],
-      "forWhomKey": "products.carnilove.ADULT_01.forWhom",
-      "tags": ["adult", "grain-free", "wild-meat", "placeholder"],
-      "_status": "PLACEHOLDER - e.g., Reindeer, Duck & Pheasant, Wild Boar"
+      "originalName": "salmon&turkey",
+      "url": "https://carnilove.com/en/products/cats/dry/160-salmon-and-turkey"
     },
-    "CARNILOVE_ADULT_02": {
-      "code": "CARNILOVE_ADULT_02",
-      "series": "Adult",
-      "name": "Carnilove Adult Placeholder Product 2",
-      "nameKey": "products.carnilove.ADULT_02.name",
-      "descriptionKey": "products.carnilove.ADULT_02.description",
-      "category": "dog",
-      "ageGroup": "adult",
-      "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
-      "benefits": [
-        "products.carnilove.ADULT_02.benefit1",
-        "products.carnilove.ADULT_02.benefit2",
-        "products.carnilove.ADULT_02.benefit3"
-      ],
-      "forWhomKey": "products.carnilove.ADULT_02.forWhom",
-      "tags": ["adult", "grain-free", "wild-meat", "placeholder"],
-      "_status": "PLACEHOLDER"
-    },
-    "CARNILOVE_SENIOR_01": {
-      "code": "CARNILOVE_SENIOR_01",
-      "series": "Senior",
-      "name": "Carnilove Senior Placeholder Product",
-      "nameKey": "products.carnilove.SENIOR_01.name",
-      "descriptionKey": "products.carnilove.SENIOR_01.description",
-      "category": "dog",
-      "ageGroup": "senior",
-      "sizeGroup": "all",
-      "image": "/assets/pic/placeholder.png",
-      "benefits": [
-        "products.carnilove.SENIOR_01.benefit1",
-        "products.carnilove.SENIOR_01.benefit2",
-        "products.carnilove.SENIOR_01.benefit3"
-      ],
-      "forWhomKey": "products.carnilove.SENIOR_01.forWhom",
-      "tags": ["senior", "grain-free", "wild-meat", "placeholder"],
-      "_status": "PLACEHOLDER"
-    },
-    "CARNILOVE_KITTEN_01": {
-      "code": "CARNILOVE_KITTEN_01",
-      "series": "Kitten",
-      "name": "Carnilove Kitten Placeholder Product",
-      "nameKey": "products.carnilove.KITTEN_01.name",
-      "descriptionKey": "products.carnilove.KITTEN_01.description",
-      "category": "cat",
-      "ageGroup": "kitten",
-      "image": "/assets/pic/placeholder.png",
-      "benefits": [
-        "products.carnilove.KITTEN_01.benefit1",
-        "products.carnilove.KITTEN_01.benefit2",
-        "products.carnilove.KITTEN_01.benefit3"
-      ],
-      "forWhomKey": "products.carnilove.KITTEN_01.forWhom",
-      "tags": ["kitten", "grain-free", "wild-meat", "placeholder"],
-      "_status": "PLACEHOLDER - e.g., Salmon & Turkey Kitten"
-    },
-    "CARNILOVE_ADULTCAT_01": {
-      "code": "CARNILOVE_ADULTCAT_01",
-      "series": "Adult Cat",
-      "name": "Carnilove Adult Cat Placeholder Product",
-      "nameKey": "products.carnilove.ADULTCAT_01.name",
-      "descriptionKey": "products.carnilove.ADULTCAT_01.description",
+    "CL_CAT_004": {
+      "code": "CL_CAT_004",
+      "series": "adult",
+      "name": "קרנילאב salmon",
+      "nameKey": "products.carnilove.CL_CAT_004.name",
+      "descriptionKey": "products.carnilove.CL_CAT_004.description",
       "category": "cat",
       "ageGroup": "adult",
+      "sizeGroup": "medium",
       "image": "/assets/pic/placeholder.png",
       "benefits": [
-        "products.carnilove.ADULTCAT_01.benefit1",
-        "products.carnilove.ADULTCAT_01.benefit2",
-        "products.carnilove.ADULTCAT_01.benefit3"
+        "products.carnilove.CL_CAT_004.benefit1",
+        "products.carnilove.CL_CAT_004.benefit2",
+        "products.carnilove.CL_CAT_004.benefit3"
       ],
-      "forWhomKey": "products.carnilove.ADULTCAT_01.forWhom",
-      "tags": ["adult-cat", "grain-free", "wild-meat", "placeholder"],
-      "_status": "PLACEHOLDER - e.g., Duck & Turkey, Lamb & Wild Boar"
+      "forWhomKey": "products.carnilove.CL_CAT_004.forWhom",
+      "tags": [
+        "grain-free",
+        "sensitive",
+        "skin-coat",
+        "adult",
+        "medium"
+      ],
+      "originalName": "salmon",
+      "url": "https://carnilove.com/en/products/category/product-type/161-salmon"
     },
-    "CARNILOVE_ADULTCAT_02": {
-      "code": "CARNILOVE_ADULTCAT_02",
-      "series": "Adult Cat",
-      "name": "Carnilove Adult Cat Placeholder Product 2",
-      "nameKey": "products.carnilove.ADULTCAT_02.name",
-      "descriptionKey": "products.carnilove.ADULTCAT_02.description",
+    "CL_CAT_005": {
+      "code": "CL_CAT_005",
+      "series": "adult",
+      "name": "קרנילאב duck & pheasant",
+      "nameKey": "products.carnilove.CL_CAT_005.name",
+      "descriptionKey": "products.carnilove.CL_CAT_005.description",
       "category": "cat",
       "ageGroup": "adult",
+      "sizeGroup": "medium",
       "image": "/assets/pic/placeholder.png",
       "benefits": [
-        "products.carnilove.ADULTCAT_02.benefit1",
-        "products.carnilove.ADULTCAT_02.benefit2",
-        "products.carnilove.ADULTCAT_02.benefit3"
+        "products.carnilove.CL_CAT_005.benefit1",
+        "products.carnilove.CL_CAT_005.benefit2",
+        "products.carnilove.CL_CAT_005.benefit3"
       ],
-      "forWhomKey": "products.carnilove.ADULTCAT_02.forWhom",
-      "tags": ["adult-cat", "grain-free", "wild-meat", "placeholder"],
-      "_status": "PLACEHOLDER"
-    },
-    "CARNILOVE_SENIORCAT_01": {
-      "code": "CARNILOVE_SENIORCAT_01",
-      "series": "Senior Cat",
-      "name": "Carnilove Senior Cat Placeholder Product",
-      "nameKey": "products.carnilove.SENIORCAT_01.name",
-      "descriptionKey": "products.carnilove.SENIORCAT_01.description",
-      "category": "cat",
-      "ageGroup": "senior",
-      "image": "/assets/pic/placeholder.png",
-      "benefits": [
-        "products.carnilove.SENIORCAT_01.benefit1",
-        "products.carnilove.SENIORCAT_01.benefit2",
-        "products.carnilove.SENIORCAT_01.benefit3"
+      "forWhomKey": "products.carnilove.CL_CAT_005.forWhom",
+      "tags": [
+        "grain-free",
+        "adult",
+        "medium"
       ],
-      "forWhomKey": "products.carnilove.SENIORCAT_01.forWhom",
-      "tags": ["senior-cat", "grain-free", "wild-meat", "placeholder"],
-      "_status": "PLACEHOLDER"
+      "originalName": "duck & pheasant",
+      "url": "https://carnilove.com/en/products/cats/dry/162-duck-and-pheasant"
     }
   },
   "metadata": {
     "brand": "Carnilove",
-    "brandDescription": "Grain-free formulas inspired by the natural diet of dogs and cats, featuring wild-origin meats like reindeer, duck, pheasant, and wild boar",
-    "status": "PLACEHOLDER - To be filled with actual product data",
-    "lastUpdated": "2025-10-23",
+    "status": "GENERATED FROM EXCEL",
+    "lastUpdated": "2025-10-28",
     "totalProducts": 9,
-    "notes": "Carnilove specializes in grain-free, wild meat recipes. Research their actual product line (Reindeer, Duck & Turkey, Salmon & Turkey, etc.) and update with real products."
+    "dogs": 4,
+    "cats": 5
   }
 }
