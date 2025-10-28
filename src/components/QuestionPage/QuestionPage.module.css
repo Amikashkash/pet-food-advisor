@@ -9,7 +9,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: var(--spacing-xl) var(--spacing-lg);
+  padding: var(--spacing-md) var(--spacing-md);
   background-color: var(--color-bg-primary);
   animation: fadeIn var(--transition-normal);
 }
@@ -17,8 +17,8 @@
 /* Header with navigation buttons */
 .header {
   display: flex;
-  gap: var(--spacing-md);
-  margin-bottom: var(--spacing-xl);
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
   max-width: 800px;
   width: 100%;
   margin-left: auto;
@@ -29,22 +29,22 @@
 .iconButton {
   display: flex;
   align-items: center;
-  gap: var(--spacing-sm);
-  padding: var(--spacing-sm) var(--spacing-md);
+  gap: var(--spacing-xs);
+  padding: var(--spacing-xs) var(--spacing-sm);
   background-color: var(--color-card);
   color: var(--color-text-primary);
   border: 2px solid var(--color-border);
   border-radius: var(--radius-lg);
   cursor: pointer;
   transition: all var(--transition-normal);
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  min-height: 44px;
+  min-height: 36px;
 }
 
 .iconButton svg {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
 }
 
 .iconButton:hover:not(:disabled) {
@@ -66,15 +66,15 @@
 .progressContainer {
   display: flex;
   align-items: center;
-  gap: var(--spacing-md);
+  gap: var(--spacing-sm);
   max-width: 800px;
   width: 100%;
-  margin: 0 auto var(--spacing-xl);
+  margin: 0 auto var(--spacing-md);
 }
 
 .progressBar {
   flex: 1;
-  height: 12px;
+  height: 10px;
   background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(139, 92, 246, 0.3);
   border-radius: var(--radius-full);
@@ -106,8 +106,8 @@
   margin: 0 auto;
   background-color: var(--color-card);
   border: 2px solid var(--color-border);
-  border-radius: var(--radius-3xl);
-  padding: var(--spacing-3xl) var(--spacing-2xl);
+  border-radius: var(--radius-2xl);
+  padding: var(--spacing-lg) var(--spacing-md);
   box-shadow: var(--shadow-2xl);
 }
 
@@ -144,10 +144,10 @@
 
 /* Question text - LARGER AND MORE PROMINENT */
 .question {
-  font-size: var(--font-size-4xl);
+  font-size: var(--font-size-xl);
   font-weight: 800;
   color: #ffffff;
-  margin-bottom: var(--spacing-3xl);
+  margin-bottom: var(--spacing-lg);
   line-height: var(--line-height-tight);
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   letter-spacing: -0.5px;
@@ -157,7 +157,7 @@
 .buttonGrid {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-md);
+  gap: var(--spacing-sm);
 }
 
 /* Answer button - SMALLER, MORE "CLICKABLE" */
@@ -166,17 +166,17 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: var(--spacing-md) var(--spacing-lg);
+  padding: var(--spacing-sm) var(--spacing-md);
   background: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(124, 58, 237, 0.4) 100%);
   color: #ffffff;
   border: 2px solid rgba(139, 92, 246, 0.5);
-  border-radius: var(--radius-2xl);
+  border-radius: var(--radius-xl);
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
   text-align: inherit;
-  min-height: 54px;
+  min-height: 44px;
   opacity: 1;
   animation: slideUp var(--transition-normal) forwards;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -272,23 +272,23 @@
 /* Tablet */
 @media (max-width: 1024px) {
   .question {
-    font-size: var(--font-size-2xl);
+    font-size: var(--font-size-lg);
   }
 
   .answerButton {
-    font-size: var(--font-size-base);
-    padding: var(--spacing-md) var(--spacing-lg);
+    font-size: var(--font-size-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
   }
 }
 
 /* Mobile */
 @media (max-width: 767px) {
   .container {
-    padding: var(--spacing-lg) var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-sm);
   }
 
   .header {
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
   }
 
   .iconButton span {
@@ -296,27 +296,45 @@
   }
 
   .iconButton {
-    padding: var(--spacing-sm);
-    min-width: 44px;
+    padding: var(--spacing-xs);
+    min-width: 36px;
+    min-height: 36px;
+  }
+
+  .iconButton svg {
+    width: 16px;
+    height: 16px;
   }
 
   .progressText {
     font-size: var(--font-size-xs);
   }
 
+  .progressBar {
+    height: 8px;
+  }
+
+  .progressContainer {
+    margin-bottom: var(--spacing-sm);
+  }
+
   .questionCard {
-    padding: var(--spacing-xl);
+    padding: var(--spacing-md) var(--spacing-sm);
   }
 
   .question {
-    font-size: var(--font-size-xl);
-    margin-bottom: var(--spacing-xl);
+    font-size: var(--font-size-base);
+    margin-bottom: var(--spacing-md);
+  }
+
+  .buttonGrid {
+    gap: var(--spacing-xs);
   }
 
   .answerButton {
-    font-size: var(--font-size-base);
-    padding: var(--spacing-md) var(--spacing-lg);
-    min-height: 56px;
+    font-size: var(--font-size-sm);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    min-height: 40px;
   }
 
   .answerButton:hover {
@@ -326,38 +344,82 @@
   [dir="rtl"] .answerButton:hover {
     transform: translateX(-4px);
   }
-}
-
-/* Small mobile */
-@media (max-width: 480px) {
-  .container {
-    padding: var(--spacing-md);
-  }
-
-  .question {
-    font-size: var(--font-size-xl);
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  }
-
-  .answerButton {
-    font-size: var(--font-size-base);
-    padding: var(--spacing-md);
-    min-height: 60px;
-    font-weight: var(--font-weight-semibold);
-  }
-
-  .questionCard {
-    padding: var(--spacing-lg);
-    border-width: 2px;
-  }
 
   .brandBadge {
     font-size: var(--font-size-xs);
-    padding: var(--spacing-xs) var(--spacing-sm);
+    padding: 2px var(--spacing-xs);
+    margin-bottom: var(--spacing-xs);
+  }
+}
+
+/* Very small screens (7" Raspberry Pi, etc.) */
+@media (max-width: 480px) {
+  .container {
+    padding: 4px;
+  }
+
+  .header {
+    margin-bottom: 4px;
+    gap: 4px;
+  }
+
+  .iconButton {
+    padding: 4px;
+    min-width: 32px;
+    min-height: 32px;
+  }
+
+  .iconButton svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .progressContainer {
+    margin-bottom: var(--spacing-xs);
+    gap: 4px;
+  }
+
+  .progressBar {
+    height: 6px;
   }
 
   .progressText {
+    font-size: 10px;
+    min-width: 40px;
+  }
+
+  .questionCard {
+    padding: var(--spacing-xs);
+    border-width: 1px;
+  }
+
+  .question {
     font-size: var(--font-size-sm);
+    margin-bottom: var(--spacing-xs);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .buttonGrid {
+    gap: 6px;
+  }
+
+  .answerButton {
+    font-size: var(--font-size-xs);
+    padding: 6px var(--spacing-xs);
+    min-height: 36px;
+    font-weight: var(--font-weight-semibold);
+    border-width: 1px;
+  }
+
+  .answerArrow {
+    width: 16px;
+    height: 16px;
+  }
+
+  .brandBadge {
+    font-size: 9px;
+    padding: 2px 6px;
+    margin-bottom: 4px;
   }
 }
 
