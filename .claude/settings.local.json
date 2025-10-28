@@ -30,7 +30,8 @@
       "Bash(node optimize-britcare-images.cjs:*)",
       "Bash(node create-app-icon.cjs:*)",
       "Bash(node generate-carnilove.cjs:*)",
-      "Bash(node generate-carnilove-translations.cjs:*)"
+      "Bash(node generate-carnilove-translations.cjs:*)",
+      "Bash(node:*)"
     ],
     "deny": [],
     "ask": []

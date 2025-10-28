@@ -92,7 +92,7 @@ const BrandSelector = () => {
       description: t('brandSelector.carnilove'),
       available: true,
       color: '#f59e0b', // Orange
-      logo: null,
+      logo: '/assets/pic/logo-carnilove.png',
       features: [
         'נטול דגנים 100%',
         'עתיר בשר',

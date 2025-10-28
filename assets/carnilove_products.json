@@ -9,7 +9,7 @@
       "category": "dog",
       "ageGroup": "adult",
       "sizeGroup": "medium",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/carnilove-lamb-boar.png",
       "benefits": [
         "products.carnilove.CL_DOG_001.benefit1",
         "products.carnilove.CL_DOG_001.benefit2",
@@ -33,7 +33,7 @@
       "category": "dog",
       "ageGroup": "puppy",
       "sizeGroup": "large",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/carnilove-puppy-salmon-L.png",
       "benefits": [
         "products.carnilove.CL_DOG_002.benefit1",
         "products.carnilove.CL_DOG_002.benefit2",
@@ -58,7 +58,7 @@
       "category": "dog",
       "ageGroup": "adult",
       "sizeGroup": "large",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/carnilove_salmon_larg.png",
       "benefits": [
         "products.carnilove.CL_DOG_003.benefit1",
         "products.carnilove.CL_DOG_003.benefit2",
@@ -83,7 +83,7 @@
       "category": "dog",
       "ageGroup": "adult",
       "sizeGroup": "medium",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/carnilove- salmon-medium.png",
       "benefits": [
         "products.carnilove.CL_DOG_004.benefit1",
         "products.carnilove.CL_DOG_004.benefit2",
@@ -108,7 +108,7 @@
       "category": "cat",
       "ageGroup": "adult",
       "sizeGroup": "large",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/carnilove-duck.png",
       "benefits": [
         "products.carnilove.CL_CAT_001.benefit1",
         "products.carnilove.CL_CAT_001.benefit2",
@@ -133,7 +133,7 @@
       "category": "cat",
       "ageGroup": "adult",
       "sizeGroup": "medium",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/carnilove-lamb.png",
       "benefits": [
         "products.carnilove.CL_CAT_002.benefit1",
         "products.carnilove.CL_CAT_002.benefit2",
@@ -158,7 +158,7 @@
       "category": "cat",
       "ageGroup": "puppy",
       "sizeGroup": "medium",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/carnilove-kitten-salmon.png",
       "benefits": [
         "products.carnilove.CL_CAT_003.benefit1",
         "products.carnilove.CL_CAT_003.benefit2",
@@ -182,7 +182,7 @@
       "category": "cat",
       "ageGroup": "adult",
       "sizeGroup": "medium",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/carnilove-salmon-cat.png",
       "benefits": [
         "products.carnilove.CL_CAT_004.benefit1",
         "products.carnilove.CL_CAT_004.benefit2",
@@ -208,7 +208,7 @@
       "category": "cat",
       "ageGroup": "adult",
       "sizeGroup": "medium",
-      "image": "/assets/pic/placeholder.png",
+      "image": "/assets/pic/carnilove-duch-phesant.png",
       "benefits": [
         "products.carnilove.CL_CAT_005.benefit1",
         "products.carnilove.CL_CAT_005.benefit2",
